@@ -1,0 +1,7 @@
+{
+  "name": "poisonation",
+  "description": "a slow damaging status from poison",
+  "damageMultiplier": 0.95,
+  "speedMultiplier": 0.95,
+  "damage": 3,
+}

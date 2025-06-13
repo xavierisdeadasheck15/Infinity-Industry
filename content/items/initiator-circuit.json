@@ -1,0 +1,15 @@
+{
+  "name": "Initiator Circuit",
+  "description": "A Circuit run with Dark Code, Use to Build some Fallen Unit from Cylistial",
+  "hardness": 6,
+  "cost": 65,
+  "charge": 2,
+  "flammability": 0,
+  "color": "455a64",
+  "research": {
+    "parent": "dark-iron",
+    "requirements": [
+      "dark-iron/500"
+    ]
+  }
+}

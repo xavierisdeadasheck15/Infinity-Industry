@@ -1,0 +1,12 @@
+{
+  "localizedName": "Magmatic",
+  "description": "Slag but redder, use to convert it into Scalarian",
+  "cache": "refreshed",
+  "isLiquid": true,
+  "color": "ffa726",
+  "flammability": 1.1,
+  "explosiveness": 1.2,
+  "heatCapacity": -1.5,
+  "viscosity": 1,
+  "temperature": 1.1
+}

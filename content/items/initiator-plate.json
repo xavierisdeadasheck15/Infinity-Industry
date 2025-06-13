@@ -1,0 +1,15 @@
+{
+  "name": "Initiator Plate",
+  "description": "Red pattern Panel, Use to Build some Fallen Unit from Cylistial",
+  "hardness": 6,
+  "cost": 65,
+  "charge": 2,
+  "flammability": 0,
+  "color": "546e7a",
+  "research": {
+    "parent": "dark-iron",
+    "requirements": [
+      "dark-iron/500"
+    ]
+  }
+}

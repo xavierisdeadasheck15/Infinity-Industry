@@ -1,0 +1,12 @@
+{
+  "localizedName": "Scryptic",
+  "description": "Cryofluid but Colder, use to convert it into Tensarian",
+  "cache": "refreshed",
+  "isLiquid": true,
+  "color": "18ffff"
+  "flammability": 0,
+  "explosiveness": 0,
+  "heatCapacity": 1.5,
+  "viscosity": 1,
+  "temperature": -2
+}

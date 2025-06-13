@@ -1,0 +1,14 @@
+{
+  "name": "Scalarian",
+  "description": "Frozen Magmatic, use to create Endgame Class turret & Ammunition",
+  "hardness": 1.25,
+  "cost": 50,
+  "explosiveness": 1,
+  "color": "fb8c00",
+  "research": {
+    "parent": "maltixian",
+    "requirements": [
+      "maltixian/500"
+    ]
+  }
+}

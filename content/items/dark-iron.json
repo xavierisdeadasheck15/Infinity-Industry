@@ -1,0 +1,15 @@
+{
+  "name": "Dark Iron",
+  "description": "Very greyish alike, use to make 4 Resource and building",
+  "hardness": 5,
+  "cost": 65,
+  "charge": 1,
+  "flammability": 0,
+  "color": "78909c",
+  "research": {
+    "parent": "surge-alloy",
+    "requirements": [
+      "surge-alloy/500"
+    ]
+  }
+}

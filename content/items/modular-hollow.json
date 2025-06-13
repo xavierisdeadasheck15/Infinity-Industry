@@ -1,0 +1,14 @@
+{
+  "name": "Modular Hollow",
+  "description": "A Component modular, Use on extra Modular Building",
+  "hardness": 1.75,
+  "cost": 30,
+  "charge": 0.5,
+  "color": "78909c",
+  "research": {
+    "parent": "maltixian",
+    "requirements": [
+      "maltixian/500"
+    ]
+  }
+}

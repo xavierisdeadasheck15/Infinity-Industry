@@ -1,0 +1,14 @@
+{
+  "name": "Modular Processor",
+  "description": "A Component modular, Use on extra Modular Building",
+  "hardness": 1.25,
+  "cost": 30,
+  "charge": 0.5,
+  "color": "b0bec5",
+  "research": {
+    "parent": "greetanium",
+    "requirements": [
+      "greetanium/500"
+    ]
+  }
+}

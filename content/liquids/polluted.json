@@ -1,0 +1,11 @@
+{
+  "localizedName": "Polluted",
+  "description": "A Bright muddy like liquid, probably taste bitter and not so good",
+  "isLiquid": true,
+  "color": "bcaaa4"
+  "flammability": 0.75,
+  "explosiveness": 0.01,
+  "heatCapacity": 0.2,
+  "viscosity": 1,
+  "temperature": 0
+}

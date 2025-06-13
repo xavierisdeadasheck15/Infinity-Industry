@@ -1,0 +1,15 @@
+{
+  "type": "Item",
+  "name": "raw-maltix",
+  "localizedName": "Raw Maltix",
+  "description": "Unstable Purple Virus Nugget Crystal, Use to create 3rd Class Modular & Refine it into Maltixian",
+  "hardness": 3,
+  "cost": 15,
+  "radioactivity": 15,
+  "explosiveness": 1.5,
+  "color": "8e24aa",
+  "research": {
+    "parent": "raw-frictor",
+    "requirements": ["raw-frictor/500"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "localizedName": "Scumthane",
+  "description": "A Bioproduct of Burner Generator, Use only for Turbine Blower, [red]MAKE SURE TO NOT PUTTED INTO ANY PIPELINE THAT HAS NO LEAK AND STORE IT TO THE IQUID STORAGE OR IT WILL CAUSE A CATASTROPHIC RESULT",
+  "cache": "refreshed",
+  "gas": true,
+  "color": "bcaaa4",
+  "gasColor": "bcaaa4",
+  "flammability": 2,
+  "explosiveness": 2.5,
+  "heatCapacity": 1,
+  "viscosity": 0,
+  "temperature": 1.1
+}

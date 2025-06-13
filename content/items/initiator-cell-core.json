@@ -1,0 +1,16 @@
+{
+  "name": "Initiator Cell Core",
+  "description": "A Core, Field with A Red glow inside, Use to Build some Fallen Unit from Cylistial",
+  "hardness": 6,
+  "cost": 65,
+  "charge": 5,
+  "explosiveness": 5,
+  "flammability": 0,
+  "color": "37474f",
+  "research": {
+    "parent": "dark-iron",
+    "requirements": [
+      "dark-iron/500"
+    ]
+  }
+}

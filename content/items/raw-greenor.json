@@ -1,0 +1,13 @@
+{
+  "type": "Item",
+  "name": "raw-greenor",
+  "localizedName": "Raw Greenor",
+  "description": "Unstable Green Virus vine Alike, Use to Create Starter Modular & Refine it into Greetanium",
+  "hardness": 1,
+  "cost": 5,
+  "radioactivity": 3,
+  "color": "029C16",
+  "research": {
+    "parent": "core-frame",
+  }
+}
