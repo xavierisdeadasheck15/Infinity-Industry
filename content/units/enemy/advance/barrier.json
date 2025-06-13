@@ -1,0 +1,21 @@
+{
+  "name": "Barrier",
+  "description": "6th Enemy you will encounter, required beat to disintegrate its shield",
+  "type": "mech",
+  "speed": 0.45,
+  "hitSize": 9.5,
+  "health": 500,
+  "armor": 5,
+  "itemCapacity": 100,
+  "outlineColor": "36363c",
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 100,
+      "regen": 5,
+      "max": 500,
+      "cooldown": 100,
+      "sides": 10
+    }
+  ]
+}

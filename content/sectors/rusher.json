@@ -1,0 +1,22 @@
+{
+  "localizedName": "Rusher",
+  "description": "Bigger Threat was detected here, be careful, you don't know who will arrive",
+  "sector": 60,
+  "captureWave": 30,
+  "difficulty": 5,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "spirality",
+    "objectives": ["bass", "ranger", "detonator", "frostbite", "exhaust-generator", 
+      {
+        "type": "SectorComplete",
+        "preset": "spirality"
+      }
+    ]
+  }
+}

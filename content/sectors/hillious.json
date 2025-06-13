@@ -1,0 +1,23 @@
+{
+  "localizedName": "Hillious",
+  "description": "A Middle of the area is enemy spawn at, but the main problem is the space, so you will need a repair module for this, research processor and the module once you arrive",
+  "sector": 16,
+  "captureWave": 20,
+  "difficulty": 2,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "turninground",
+    "objectives": 
+    [
+      {
+        "type": "SectorComplete",
+        "preset": "turninground"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "localizedName": "Skyline",
+  "description": "Be Aware that in this place has upcoming aerial attack in the end, Research AA Turret with your newfound resource",
+  "sector": 86,
+  "captureWave": 30,
+  "difficulty": 2,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "ridget",
+    "objectives": 
+    [
+      {
+        "type": "SectorComplete",
+        "preset": "ridget"
+      }
+    ]
+  }
+}

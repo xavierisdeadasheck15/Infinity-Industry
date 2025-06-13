@@ -1,0 +1,22 @@
+{
+    "name": "Zirvon",
+    "description": "Aerial Cargo Unit, Usable For Everything If Therson is Unable",
+    "flying": true,
+	"type": "tether",
+	"hitSize": 9,
+	"health": 500,
+	"range": 0,
+	"itemCapacity": 200,
+	"speed": 2,
+	"rotateSpeed": 5,
+	"rotateShooting": false,
+	"accel": 0.5,
+	"drag": 0.10,
+    "engineSize": 3,
+    "engineOffset": 7,
+    "defaultController": "CargoAI",
+    "isEnemy": false,
+    "allowedInPayloads": false,
+    "logicControllable": false,
+    "playerControllable": false
+}

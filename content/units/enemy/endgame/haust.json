@@ -1,0 +1,59 @@
+{
+  "name": "Haust",
+  "description": "8th Enemy you will encounter, Poison will not be effective to deal with this",
+  "type": "mech",
+  "speed": 1.25,
+  "hitSize": 9.5,
+  "health": 350,
+  "armor": 3,
+  "itemCapacity": 100,
+  "outlineColor": "36363c",
+  "immunities": [
+    "poisonation"
+  ]
+  "weapons": [
+    {
+      "name": "haust-acid-railgun",
+      "under": false,
+      "top": true,
+      "shootY": 2,
+      "reload": 30,
+      "x": 0,
+      "y": -5,
+      "alternate": false,
+      "mirror": false,
+      "recoil": 2,
+      "rotate": true,
+      "rotateSpeed": 2,
+      "shootSound": "missile",
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 50,
+        "height": 12,
+        "width": 7,
+        "homingPower": 2,
+        "homingRange": 75,
+        "frontColor": "70D121",
+        "backColor": "3E4F2F",
+        "trailColor": "70D121",
+        "hitEffect": "smokePuff",
+        "shootEffect": "shootSmall",
+        "smokeEffect": "smokePuff",
+        "trailEffect": "electrified",
+        "trailWidth": 1.5,
+        "trailLength": 10,
+        "speed": 2,
+        "width": 12,
+        "height": 12,
+        "lifetime": 70,
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "RegenAbility",
+      "amount": 3.5,
+      "healEffect": regenParticle,
+    }
+  ]
+}

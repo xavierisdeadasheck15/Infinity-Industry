@@ -1,0 +1,58 @@
+{
+  "type": "mech",
+  "name": "Disarm",
+  "description": "10th enemy you will encounter, Seperate into 3 of its counterpart",
+  "outlineColor": "34353EFF",
+  "flying": false,
+  "speed": 0.5,
+  "hitSize": 13.5,
+  "health": 1000,
+  "armor": 5,
+  "weapons": [
+    {
+      "name": "catastrope-gun",
+      "top": false,
+      "shootY": 2,
+      "reload": 20,
+      "x": -6.5,
+      "y": -1,
+      "alternate": true,
+      "mirror": true,
+      "recoil": 2,
+      "shootSound": "bigshot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 25,
+        "height": 12,
+        "width": 7,
+        "homingPower": 2,
+        "homingRange": 75,
+        "frontColor": "8838BA",
+        "backColor": "540E80",
+        "trailColor": "8838BA",
+        "hitEffect": "smokePuff",
+        "shootEffect": "shootSmall",
+        "smokeEffect": "smokePuff",
+        "trailEffect": "colorTrail",
+        "trailWidth": 1.5,
+        "trailLength": 10,
+        "speed": 2,
+        "width": 12,
+        "height": 12,
+        "lifetime": 100,
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "caustrophic",
+      "amount": 2,
+    }
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "caustrophic-bomb",
+      "amount": 1,
+    }
+  ]
+}

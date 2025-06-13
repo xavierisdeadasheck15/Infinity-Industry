@@ -1,0 +1,23 @@
+{
+  "localizedName": "Turning round",
+  "description": "A Roundy Road, there some medium patches within this place, but the enemy are become many in here, research a control detonator turret",
+  "sector": 37,
+  "captureWave": 20,
+  "difficulty": 1,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "startingpoint",
+    "objectives": 
+    [
+      {
+        "type": "SectorComplete",
+        "preset": "startingpoint"
+      }
+    ]
+  }
+}

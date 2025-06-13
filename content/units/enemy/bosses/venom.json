@@ -1,0 +1,32 @@
+{
+  "name": "Venom",
+  "description": "Second Large enemy Bosses, Could be the 4th bosses you will encounter this day, Immune to Poison",
+  "type": "crawl",
+  "speed": 0.75,
+  "hitSize": 15.5,
+  "health": 7500,
+  "armor": 15,
+  "drawBody": false,
+  "drawCell": false,
+  "itemCapacity": 10,
+  "outlineColor": "36363c",
+  "faceTarget": false,
+  "circleTarget": true,
+  "autoFindTarget": false,
+  "immunities": [
+    "poisonation"
+  ],
+  "controller": HugAI,
+  "crushDamage": 1.5,
+  "segments": 5,
+  "segmentScl": 3.5,
+  "segmentPhase": 3,
+  "segmentMag": 3,
+  "abilities": [
+    {
+      "type": "LiquidExplodeAbility",
+      "liquid": "arkycite",
+      "amount": 100
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "localizedName": "Spirality",
+  "description": "No Research are Intended, Continue the Exploration",
+  "sector": 38,
+  "captureWave": 20,
+  "difficulty": 2,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "outrange",
+    "objectives": 
+    [
+      {
+        "type": "SectorComplete",
+        "preset": "outrange"
+      }
+    ]
+  }
+}

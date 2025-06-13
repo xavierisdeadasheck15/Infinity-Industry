@@ -1,0 +1,24 @@
+{
+  "name": "Revival",
+  "description": "7th Enemy you will encounter, Juggernaut will not be effective to deal with this",
+  "type": "mech",
+  "speed": 0.45,
+  "hitSize": 9.5,
+  "health": 500,
+  "armor": 5,
+  "itemCapacity": 100,
+  "outlineColor": "36363c",
+  "immunities": [
+    "burning"
+  ]
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "amount": 3,
+      "reload": 10,
+      "range": 100,
+      "healEffect": regenParticle,
+      "activeEffect": regenParticle
+    }
+  ]
+}

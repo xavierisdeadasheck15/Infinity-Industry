@@ -1,0 +1,40 @@
+{
+    "name": "Therson",
+    "description": "Ground Walker Miner Unit, Usable For Everything that cannot be transported to the core",
+    "flying": false,
+    "type": "legs",
+    "hitSize": 8,
+    "health": 500,
+    "itemCapacity": 100,
+    "speed": 0.50,
+    "rotateSpeed": 2,
+    "defaultController": "minerAI",
+    "mineSpeed": 7.5,
+    "legCount": 4,
+    "legPairOffset": 10,
+    "legLength": 10,
+    "legBaseOffset": 3,
+    "legExtension": 3,
+    "legSpeed": 0.5,
+    "mineTier": 5,
+    "mineItems": [
+      "copper",
+      "lead",
+      "titanium",
+      "thorium",
+      "beryllium",
+      "tungsten",
+      "raw-greenor",
+      "raw-frictor",
+      "raw-maltix"
+    ],
+    "research": {
+    "parent": "modular-mining-mech",
+    "objectives": [
+      {
+         "type": "OnSector",
+         "preset": "outrange"
+      }
+    ]
+  }
+}

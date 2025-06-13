@@ -1,0 +1,61 @@
+{
+  "name": "Cold",
+  "description": "9th Enemy you will encounter, Required to be destroyed, Frostbite and any Cold Type will not be effective",
+  "type": "mech",
+  "speed": 1.25,
+  "hitSize": 9.5,
+  "health": 650,
+  "armor": 5,
+  "itemCapacity": 100,
+  "outlineColor": "36363c",
+  "immunities": [
+    "freezing"
+  ]
+  "weapons": [
+    {
+      "name": "cold-gun",
+      "under": true,
+      "top": false,
+      "shootY": 2,
+      "reload": 20,
+      "x": -7.5,
+      "y": 1,
+      "alternate": true,
+      "mirror": true,
+      "recoil": 5,
+      "shootSound": "bigshot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 20,
+        "height": 12,
+        "width": 7,
+        "homingPower": 2,
+        "homingRange": 75,
+        "frontColor": "1523B3",
+        "backColor": "414780",
+        "trailColor": "1523B3",
+        "hitEffect": "smokePuff",
+        "shootEffect": "shootSmall",
+        "smokeEffect": "smokePuff",
+        "trailEffect": "freezing",
+        "trailWidth": 1.5,
+        "trailLength": 10,
+        "speed": 3,
+        "width": 12,
+        "height": 12,
+        "lifetime": 70,
+      }
+    }
+  ],
+
+  "abilities": [
+    {
+      "type": "ShieldRegenFieldAbility",
+      "amount": 500,
+      "max": 500,
+      "reload": 150,
+      "range": 2,
+      "applyEffect": shieldApply,
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "localizedName": "Terreous",
+  "description": "The Exact thing from the Previous, but it get harder as it look, Required a Wall to Minimize the damage",
+  "sector": 51,
+  "captureWave": 20,
+  "difficulty": 2,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "hillious",
+    "objectives": ["greetanium-wall",
+      {
+        "type": "SectorComplete",
+        "preset": "hillious"
+      }
+    ]
+  }
+}

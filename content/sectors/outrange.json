@@ -1,0 +1,23 @@
+{
+  "localizedName": "Outrange",
+  "description": "Extended Area, Enemy slowly become aggressive, you will need a faster mining, Research",
+  "sector": 41,
+  "captureWave": 25,
+  "difficulty": 2,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "swifter",
+    "objectives": 
+    [
+      {
+        "type": "SectorComplete",
+        "preset": "swifter"
+      }
+    ]
+  }
+}

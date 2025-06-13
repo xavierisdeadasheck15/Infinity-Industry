@@ -1,0 +1,94 @@
+{
+  "localizedName": "Theresa",
+  "alwaysUnlocked": false,
+
+  "stone": {
+    "type": "NoiseMesh",
+    "planet": "theresa",
+    "seed": 321,
+    "divisions": 4,
+    "color1": "3a4a4f",
+    "color2": "1e272b",
+    "radius": 0.4,
+    "octaves": 4,
+    "persistence": 0.5,
+    "scale": 1.2,
+    "mag": 0.8
+  },
+
+  "greenor": {
+    "type": "NoiseMesh",
+    "planet": "theresa",
+    "seed": 322,
+    "divisions": 4,
+    "color1": "2c4b3b",
+    "color2": "1b3527",
+    "radius": 0.4,
+    "octaves": 3,
+    "persistence": 0.5,
+    "scale": 1.5,
+    "mag": 0.6
+  },
+
+  "frictor": {
+    "type": "NoiseMesh",
+    "planet": "theresa",
+    "seed": 323,
+    "divisions": 4,
+    "color1": "2a3b44",
+    "color2": "3f5c66",
+    "radius": 0.4,
+    "octaves": 3,
+    "persistence": 0.4,
+    "scale": 1.3,
+    "mag": 0.7
+  },
+
+  "startSector": 0,
+  "sectorSize": 1,
+  "orbitSpacing": 5,
+  "radius": 0.4,
+  "minZoom": 1.8,
+  "allowLaunchSchematics": false,
+  "allowLaunchLoadout": true,
+  "drawOrbit": true,
+
+  "atmosphereRadIn": 0,
+  "atmosphereRadOut": 0.02,
+  "atmosphereColor": "000000", 
+  "hasAtmosphere": false,
+
+  "prebuildBase": false,
+  "accessible": false,
+  "updateLighting": false,
+  "sectorSeed": 14513,
+  "bloom": false,
+  "visible": true,
+  "iconColor": "3a4a4f",
+
+  "defaultCore": "core-frame",
+
+  "parent": "newcylistial",
+  "solarSystem": "sun",
+  "launchCandidates": [],
+
+  "hiddenItems": [
+    "scrap", "copper", "lead", "sand", "metaglass",
+    "coal", "graphite", "titanium", "plastanium",
+    "thorium", "phase-fabric", "surge-alloy", "beryllium",
+    "carbide", "tungsten", "fissile-matter", "oxide"
+  ],
+
+  "allowLaunchToNumbered": false,
+  "itemWhitelist": [
+    "raw-greenor",
+    "greetanium",
+    "raw-frictor",
+    "frictanium",
+    "raw-maltix",
+    "maltixian",
+    "modular-processor",
+    "modular-gear",
+    "modular-hollow"
+  ]
+}

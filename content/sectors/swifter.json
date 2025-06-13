@@ -1,0 +1,23 @@
+{
+  "localizedName": "Swift Cut",
+  "description": "A New Enemy detected here, you will need a slowdown turret, Research frostbite",
+  "sector": 12,
+  "captureWave": 25,
+  "difficulty": 2,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "terreous",
+    "objectives": 
+     [
+      {
+        "type": "SectorComplete",
+        "preset": "terreous"
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+"name": "Tectaphase",
+"description": "Second Core unit, High Speed & better at building",
+"flying": true,
+"mineSpeed": 20,
+"defaultController": "BuilderAI",
+"mineTier":2,
+"speed": 2.05,
+"accel": 0.125,
+"lowAltitude": true,
+"drag": 0.0625,
+"itemCapacity": 140,
+"health": 5000,
+"fogRadius":0,
+"rotateSpeed": 2,
+"armor": 17.5,
+"buildSpeed": 10.5,
+"engineOffset": 12,
+"engineSize:": 35,
+"faceTarget": false,
+"hitsize": 15,
+"weapons": [
+    {
+     "name": "tectaphase-medium-gun",
+     "reload": 40,
+     "rotate":true,
+     "y": -6,
+     "x": 0,
+     "under": false,
+     "shootY": 5,
+     "mirror": false,
+     "shootSound": "bigshot",
+     "bullet": {
+            "type": "ArtilleryBulletType",
+            "frontColor": "FFEB3B",
+            "backColor": "FFC107",
+            "trailColor": "FF9800",
+            "trailEffect": "colorTrail",
+            "trailWidth": 1.5,
+            "trailLength": 10,
+            "homingPower": 5,
+            "damage": 7.5,
+            "splashDamageRadius": 50,
+            "splashDamage": 3.5,
+            "speed": 2,
+            "width": 8,
+            "height": 13,
+	    "shootEffect": "shootSmall",
+	    "smokeEffect": "shootSmallSmoke",
+            "buildingDamageMultiplier": 0.05,
+            "lifetime": 175
+        }
+    }
+    {
+     "name": "tectaphase-icendiary-pod",
+     "reload": 100,
+     "baseRotation": -180,
+     "y": -8,
+     "x": -5
+     "under": false,
+     "shootY": 3,
+     "mirror": true,
+     "alternate": true,
+     "inaccuracy": 10,
+     "weaveMag": 5,
+     "shootSound": "missile",
+     "shoot": {
+        "shotDelay": 2
+        "shots": 5
+      }
+     "bullet": {
+            "type": "MissileBulletType",
+            "frontColor": "FFEB3B",
+            "backColor": "FFC107",
+            "trailColor": "FF9800",
+            "trailEffect": "colorTrail",
+            "trailWidth": 1.5,
+            "trailLength": 10,
+            "homingPower": 0.5,
+            "homingRange": 200,
+            "damage": 10,
+            "splashDamageRadius": 65,
+            "splashDamage": 5.5,
+            "speed": 2,
+            "width": 8,
+            "height": 13,
+	    "shootEffect": "shootSmall",
+	    "smokeEffect": "shootSmallSmoke",
+            "buildingDamageMultiplier": 0.05,
+            "lifetime": 180
+        }
+    }
+]
+}

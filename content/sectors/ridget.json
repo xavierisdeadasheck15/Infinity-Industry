@@ -1,0 +1,23 @@
+{
+  "localizedName": "Ridget",
+  "description": "In this Place, some certain Resource can be seen in there, take a look while defending the sector",
+  "sector": 19,
+  "captureWave": 25,
+  "difficulty": 2,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "startingpoint",
+    "objectives": 
+    [
+      {
+        "type": "SectorComplete",
+        "preset": "rusher"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Armory Head",
+  "description": "A Seperated Head From Armory",
+  "type": "crawl",
+  "speed": 0.75,
+  "hitSize": 15.5,
+  "health": 5000,
+  "armor": 10,
+  "drawBody": true,
+  "drawCell": true,
+  "itemCapacity": 10,
+  "outlineColor": "36363c",
+  "faceTarget": false,
+  "circleTarget": true,
+  "autoFindTarget": true,
+  "immunities": [
+    "poisonation",
+    "blasted"
+  ],
+  "controller": HugAI,
+  "crushDamage": 5,
+}

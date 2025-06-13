@@ -1,0 +1,43 @@
+{
+  "name": "Armory",
+  "description": "Fourth Large enemy Bosses, Could be the 2nd bosses you will encounter this day, Hard Shell Alike",
+  "type": "crawl",
+  "speed": 0.45,
+  "hitSize": 15.5,
+  "health": 10000,
+  "armor": 30,
+  "drawBody": false,
+  "drawCell": false,
+  "itemCapacity": 10,
+  "outlineColor": "36363c",
+  "faceTarget": false,
+  "circleTarget": true,
+  "autoFindTarget": true,
+  "immunities": [
+    "poisonation",
+    "blasted"
+  ],
+  "controller": HugAI,
+  "crushDamage": 5,
+  "segments": 4,
+  "segmentScl": 3.5,
+  "segmentPhase": 2,
+  "segmentMag": 2,
+  "abilities": [
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "armory-head",
+      "amount": 1,
+    }
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "armory-tail",
+      "amount": 1,
+    }
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "armory-body",
+      "amount": 2,
+    }
+  ]
+}

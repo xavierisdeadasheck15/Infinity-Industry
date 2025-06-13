@@ -1,0 +1,15 @@
+{
+"localizedName": "Starting Point",
+"description": "The start of the investigation in Cylistial Planet, gather some resource..."
+"sector": 66,
+"captureWave": 10,
+"difficulty": 1,
+"planet": "newcylistial",
+"allowLaunchLoadout": false,
+"allowLaunchSchematics": false,
+"addStartingItems": false
+"overrideLaunchDefaults": true
+"research": {
+"parent": "core-frame",
+}
+}

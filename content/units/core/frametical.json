@@ -1,0 +1,55 @@
+{
+"name": "Frametical",
+"description": "First Core unit, Reliable to handle most of heavy damage somehow",
+"flying": true,
+"mineSpeed": 10,
+"defaultController": "BuilderAI",
+"mineTier":2,
+"speed": 2.05,
+"accel": 0.125,
+"lowAltitude": true,
+"drag": 0.0625,
+"itemCapacity": 120,
+"health": 5000,
+"fogRadius":0,
+"rotateSpeed": 10,
+"armor": 15,
+"buildSpeed": 5,
+"engineOffset":5,
+"engineSize:": 30,
+"hitsize":17,
+"weapons": [
+    {
+        "name": "frametical-gunshot",
+        "reload": 20,
+        "rotate":true,
+        "y": 10,
+        "under": true,
+        "shoot": {
+            "type": "shootPattern",
+            "shots": 3,
+            "shotDelay": 2
+          },
+		"shootY": 3,
+        "bullet": {
+            "type": "BasicBulletType",
+            "shootSound": "bang",
+            "frontColor": "FFEB3B",
+            "backColor": "FFC107",
+            "trailColor": "FF9800",
+            "trailEffect": "colorTrail",
+            "trailWidth": 1.5,
+            "trailLength": 10,
+            "homingPower": 5,
+            "damage": 5.5,
+            "speed": 2,
+            "width": 8,
+            "height": 13,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+            "buildingDamageMultiplier": 0.05,
+            "lifetime": 150
+        }
+    }
+]
+}
