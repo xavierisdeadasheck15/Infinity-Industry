@@ -1,0 +1,16 @@
+{
+   "type": "Wall",
+   "name": "Tensarian Wall"
+   "description": "Small Tensarian Wall, Capable to Protect Any Structure Behind it, Disperse & Absorb Electric & Laser Base",
+   "size": 2,
+   "health": 8000,
+   "buildTime": 2,
+   "absorbLasers":true,
+   "lightningChance": 0.15,
+   "lightningDamage": 75,
+   "category": "defense",
+   "research": "tensarian-wall",
+   "requirements": [
+      "tensarian/24",
+     ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Raw Maltix",
+  "description": "An Really Unstable Ore, damage any unit who step in",
+  "itemDrop": "raw-maltix",
+  "hasColor": true,
+  "mapColor": "8e24aa",
+  "variants": 4,
+  "speedMultiplier": 0.3,
+  "damageTaken": 0.7
+}

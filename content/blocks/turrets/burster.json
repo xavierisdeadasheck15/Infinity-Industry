@@ -1,0 +1,90 @@
+{
+"type": "LiquidTurret",
+"name": "burster",
+"description": "Burst a Fire Toward Enemy",
+"size": 3,
+"liquidCapacity": 150,
+"health": 4800,
+"buildTime": 20,
+"squareSprite": false,
+"heatColor": "feb380",
+"hasLiquid": true,
+"range": 180,
+"reload": 5,
+"recoil": 1,
+"shootY": 8,
+"targetAir": false,
+"targetGround": true,
+"shootSound": "flame",
+    "shootEffect": {
+      "type": "ParticleEffect",
+      "particles": 45,
+      "line": false,
+      "layer": 105,
+      "length": 200,
+      "lifetime": 32,
+      "interp": "pow5Out",
+      "cone": 25,
+      "colorFrom": "f8c266",
+      "sizeInterp": "pow3In",
+      "colorTo": "515151",
+      "sizeFrom": 3,
+      "sizeTo": 0
+    },
+"ammoTypes": {
+  "magmatic": {
+    "type": "BulletType",
+    "damage": 28,
+    "extinguish": false,
+    "speed": 6,
+    "pierce": true,
+    "pierceBuilding": true,
+    "ammoMultiplier": 5,
+    "status": "burning",
+    "makeFire": true,
+    "statusDuration": 750,
+    "lifetime": 24,
+    "despawnEffect": "none",
+    "width": 0.1,
+    "height": 0.1
+  }
+  "scryptic": {
+    "type": "BulletType",
+    "damage": 28,
+    "extinguish": true,
+    "speed": 6,
+    "pierce": true,
+    "pierceBuilding": true,
+    "ammoMultiplier": 5,
+    "status": "freezing",
+    "makeFire": false,
+    "statusDuration": 750,
+    "lifetime": 24,
+    "despawnEffect": "none",
+    "width": 0.1,
+    "height": 0.1
+  }
+},
+  "requirements": [
+    {
+      "item": "scalarian",
+      "amount": 200
+    }
+  ],
+  "category": "turret",
+  "research": "launcher",
+  "researchCostMultiplier": 2.5
+  "drawer": {
+      "type": "DrawTurret",
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "-spike",
+          "mirror": false,
+          "under": true,
+          "progress": "warmup",
+          "moveY": 5
+         },
+      ]
+   }
+}

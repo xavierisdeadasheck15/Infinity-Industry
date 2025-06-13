@@ -1,0 +1,65 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Refinery 3",
+  "description": "A Better Modular to Refine 3rd Resource into Maltixian",
+  "buildTime": 3,
+  "squareSprite": false,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-rim",
+        "color": "FFFFFF"
+      }
+    ]
+  },
+  "craftTime": 50,
+  "itemCapacity": 30,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        {
+          "item": "raw-maltix",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 50
+    }
+    {
+      "item": "frictanium",
+      "amount": 50
+    }
+    {
+      "item": "raw-maltix",
+      "amount": 100
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "modular-refinery-mk2",
+    "requirements": [
+      "greetanium/100",
+      "frictanium/100",
+      "raw-maltix/200"
+    ]
+  }
+  "outputItem": {
+    "item": "maltixian",
+    "amount": 1
+  },
+  "health": 320
+}

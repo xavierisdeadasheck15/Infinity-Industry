@@ -1,0 +1,14 @@
+{
+   "type": "Wall",
+   "name": "Large Greetanium Wall"
+   "description": "Large Greetanium Wall, Capable to Protect Any Structure Behind it",
+   "size": 2,
+   "health": 2000,
+   "buildTime": 1.2,
+   "category": "defense",
+   "research": "greetanium-wall",
+   "requirements": [
+      "greetanium/24",
+      "raw-greenor/10",
+     ]
+}

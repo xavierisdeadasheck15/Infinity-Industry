@@ -1,0 +1,24 @@
+{
+  "type": "PowerNode",
+  "name": "Modular Greetanium Node",
+  "description": "A Modular to Connect a Power source to the required modular",
+  "size": 1,
+  "health": 50,
+  "laserRange": 5,
+  "maxNodes": 5,
+  "hasPower": true,
+  "laserColor2": "029C16",
+  "category": "power",
+  "requirements": [
+    "raw-greenor/5",
+    "greetanium/1"
+  ],
+  "research": {
+    "parent": "modular-solar-generator",
+    "requirements": [
+      "raw-greenor/50",
+      "greetanium/10"
+    ]
+  }
+}
+

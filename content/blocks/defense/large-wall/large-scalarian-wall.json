@@ -1,0 +1,21 @@
+{
+   "type": "ShieldWall",
+   "name": "Large Scalarian Wall"
+   "description": "Large Scalarian Wall, Capable to Protect Any Structure Behind it, Can Create Barrier",
+   "size": 2,
+   "health": 6000,
+   "shieldHealth": 2000,
+   "buildTime": 1.8,
+   "category": "defense",
+   "research": "scalarian-wall",
+   "envDisabled": 16,
+   "conductivePower":true,
+   "flashHit": true,
+   "consumesPower" :true,
+   "consumes": {
+        "power": 2
+    },
+   "requirements": [
+      "scalarian/24",
+     ]
+}

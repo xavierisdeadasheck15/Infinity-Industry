@@ -1,0 +1,15 @@
+{
+  "localizedName": "Greetanium Liquor Pipe",
+  "description": "Transport Liquid to the designated Place",
+  "type": "Conduit",
+  "health": 100,
+  "leaks": false,
+  "liquidPressure": 5,
+  "liquidCapacity": 50,
+  "requirements": [
+    "greetanium/10",
+    "raw-greenor/1",
+  ],
+  "research": "modular-pump",
+  "category": "liquid"
+}

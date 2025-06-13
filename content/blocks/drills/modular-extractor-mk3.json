@@ -1,0 +1,43 @@
+{
+  "name": "Modular Extractor 3",
+  "description": "A Larger And Better drill, use to extract Both Greenor, Frictor & Maltix",
+  "type": "Drill",
+  "size": 3,
+  "itemCapacity": 20,
+  "buildTime": 8,
+  "squareSprite": false,
+  "drawRim": true,
+  "tier": 3,
+  "drillTime": 80,
+  "consumes": {
+    "liquid": {
+      "liquid": "polluted",
+      "amount": 0.025,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "raw-maltix",
+      "amount": 25
+    },
+    {
+      "item": "frictanium",
+      "amount": 5
+    },
+    {
+      "item": "greetanium",
+      "amount": 5
+    }
+  ],
+  "category": "production",
+  "research": {
+    "parent": "modular-extractor-mk1",
+    "requirements": [
+      "raw-frictor/250",
+      "frictanium/100",
+      "greetanium/100"
+    ]
+  }
+}

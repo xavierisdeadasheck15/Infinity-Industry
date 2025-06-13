@@ -1,0 +1,6 @@
+{
+  "type": "Floor",
+  "variants": 8,
+  "name": "Polished",
+  "wall": "polished-wall"
+}

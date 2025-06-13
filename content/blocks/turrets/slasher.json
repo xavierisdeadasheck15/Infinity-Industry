@@ -1,0 +1,113 @@
+{
+  "type": "ItemTurret",
+  "name": "Slasher",
+  "description": "All in one attacker",
+  "size": 2,
+  "health": 1750,
+  "buildTime": 12,
+  "squareSprite": false,
+  "maxAmmo": 25,
+  "ammoPerShot": 1,
+  "reload": 8.5,
+  "range": 445,
+  "shootY": 0,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 10,
+  "inaccuracy": 0,
+  "recoilAmount": 0,
+  "restitution": 0.8,
+  "shootSound": "laser",
+  "ammoTypes": {
+    "frictanium": {
+      "type": "BasicBulletType",
+      "damage": 2.5,
+      "speed": 0,
+      "lifetime": 1,
+      "height": 12,
+      "width": 7,
+      "trailColor": "F57C00",
+      "frontColor": "FFCC80",
+      "backColor": "FFA726",
+      "hitEffect": "hitBulletSmall",
+      "shootEffect": "shootSmall",
+      "smokeEffect": "smokePuff",
+      "trailEffect": "colorTrail",
+      "trailWidth": 1.5,
+      "trailLength": 10,
+      "fragBullets": 2,
+      "fragVelocityMin": 1,
+      "fragVelocityMax": 1,
+      "fragLifeMin": 1,
+      "fragLifeMax": 1,
+      "fragSpread": 2,
+      "keepVelocity": false,
+      "fragBullet": {
+        "speed": 5,
+        "lifetime": 120,
+        "pierce": true,
+        "pierceCap": 3,
+        "damage": 15,
+        "trailColor": "F57C00",
+        "frontColor": "FFCC80",
+        "backColor": "FFA726",
+        "trailEffect": "colorTrail",
+        "trailWidth": 1.5,
+        "trailLength": 10,
+        "width": 12,
+        "height": 7,
+        "hitSize": 3,
+        "homingPower": 1,
+        "homingRange": 150,
+        "impact": true,
+        "keepVelocity": false
+      }
+    }
+  },
+  "requirements": [
+    {
+      "item": "frictanium",
+      "amount": 100
+    }
+  ],
+  "category": "turret",
+  "research": "frostbite",
+  "researchCostMultiplier": 1.5,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-down",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveY": 3
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-up",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveY": -3
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-right",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveX": -3
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-left",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveX": 3
+      }
+    ]
+  }
+}

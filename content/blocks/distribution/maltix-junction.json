@@ -1,0 +1,14 @@
+{
+  "name": "Maltix Junction",
+  "description": "Acts as a bridge for two crossing both Pipeline",
+  "type": "Junction",
+  "speed": 3,
+  "health": 150,
+  "size": 1,
+  "requirements": [
+    "raw-maltix/1"
+  ]
+  "category": "distribution",
+  "research": "maltix-pipeline",
+  "parent": "maltix-pipeline",
+}

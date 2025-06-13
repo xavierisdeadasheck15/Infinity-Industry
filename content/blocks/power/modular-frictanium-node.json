@@ -1,0 +1,23 @@
+{
+  "type": "PowerNode",
+  "name": "Modular Frictanium Node",
+  "description": "A Slight upgrade Modular to Connect a Power source to the required modular",
+  "size": 1,
+  "health": 75,
+  "laserRange": 7,
+  "maxNodes": 7,
+  "hasPower": true,
+  "laserColor2": "1976d2",
+  "category": "power",
+  "requirements": [
+    "raw-frictor/5",
+    "frictanium/1"
+  ],
+  "research": {
+    "parent": "modular-greetanium-node",
+    "requirements": [
+      "raw-frictor/50",
+      "frictanium/10"
+    ]
+  }
+}

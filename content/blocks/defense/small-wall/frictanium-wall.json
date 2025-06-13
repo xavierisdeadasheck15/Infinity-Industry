@@ -1,0 +1,14 @@
+{
+   "type": "Wall",
+   "name": "Frictanium Wall"
+   "description": "Small Frictanium Wall, Capable to Protect Any Structure Behind it",
+   "size": 1,
+   "health": 1500,
+   "buildTime": 1.2,
+   "category": "defense",
+   "research": "greetanium-wall",
+   "requirements": [
+      "frictanium/6",
+      "raw-frictor/5",
+     ]
+}

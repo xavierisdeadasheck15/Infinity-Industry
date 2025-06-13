@@ -1,0 +1,11 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Raw Frictor",
+  "description": "An Unstable Ore, damage any unit who step in",
+  "itemDrop": "raw-frictor",
+  "hasColor": true,
+  "mapColor": "1565c0",
+  "variants": 3,
+  "speedMultiplier": 0.4,
+  "damageTaken": 0.6
+}

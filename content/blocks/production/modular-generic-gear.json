@@ -1,0 +1,64 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Generic Gear",
+  "description": "An Extra Modular to Produce Gear",
+  "buildTime": 1,
+  "squareSprite": false,
+  "size": 4,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-rim",
+        "color": "FFFFFF"
+      }
+    ]
+  },
+  "craftTime": 35,
+  "itemCapacity": 10,
+  "consumes": {
+    "power": 0.75,
+    "items": {
+      "items": [
+        {
+          "item": "raw-greenor",
+          "amount": 10
+        }
+        {
+          "item": "greetanium",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 100
+    }
+    {
+      "item": "frictanium",
+      "amount": 100
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "modular-generic-processor",
+    "requirements": [
+      "greetanium/100"
+      "frictanium/100"
+    ]
+  }
+  "outputItem": {
+    "item": "modular-gear",
+    "amount": 1
+  },
+  "health": 1000
+}

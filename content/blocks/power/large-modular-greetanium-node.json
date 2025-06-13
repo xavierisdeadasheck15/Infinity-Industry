@@ -1,0 +1,23 @@
+{
+  "type": "PowerNode",
+  "name": "Large Modular Greetanium Node",
+  "description": "A Large Modular to Connect a Power source to the required modular",
+  "size": 2,
+  "health": 100,
+  "laserRange": 10,
+  "maxNodes": 5,
+  "hasPower": true,
+  "laserColor2": "029C16",
+  "category": "power",
+  "requirements": [
+    "raw-greenor/20",
+    "greetanium/5"
+  ],
+  "research": {
+    "parent": "modular-greetanium-node",
+    "requirements": [
+      "raw-greenor/200",
+      "greetanium/50"
+    ]
+  }
+}

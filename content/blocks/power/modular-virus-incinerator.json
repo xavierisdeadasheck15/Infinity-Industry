@@ -1,0 +1,48 @@
+{
+  "type": "ConsumeGenerator",
+  "size": 1,
+  "name": "Modular Virus Incinerator",
+  "description": "A Small Module to Produce power with a Singular Resource needed",
+  "hasPower": true,
+  "powerProduction": 1.5,
+  "buildTime": 6,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-rim",
+        "color": "66B1FFFF"
+      }
+    ]
+  },
+  "consumes": {
+    "items": [
+      {
+        "item": "raw-frictor",
+        "amount": 1
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "raw-frictor",
+      "amount": 95
+    },
+    {
+      "item": "frictanium",
+      "amount": 25
+    }
+  ],
+  "category": "power",
+  "research": {
+    "parent": "modular-solar-generator",
+    "requirements": [
+      "raw-frictor/200",
+      "frictanium/100"
+    ]
+  }
+}

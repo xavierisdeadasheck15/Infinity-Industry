@@ -1,0 +1,16 @@
+{
+  "name": "Greenor Router",
+  "description": "Distributes items to 3 output directions equally.",
+  "type": "Router",
+  "dumpTime": 5,
+  "speed": 5,
+  "health": 100,
+  "itemCapacity": 20,
+  "size": 1,
+  "requirements": [
+    "raw-greenor/1"
+  ]
+  "category": "distribution",
+  "research": "greenor-junction",
+  "parent": "greenor-pipeline",
+}

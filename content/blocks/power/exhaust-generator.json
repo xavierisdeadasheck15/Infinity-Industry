@@ -1,0 +1,54 @@
+{
+  "type": "ConsumeGenerator",
+  "size": 2,
+  "name": "Exhaust Generator",
+  "description": "A Generator that Produce much more power than a Solar",
+  "hasPower": true,
+  "powerProduction": 2,
+  "buildTime": 3,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "FF9800"
+      }
+    ]
+  },
+  "consumes": {
+    "items": [
+      {
+        "item": "raw-greenor",
+        "amount": 1
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 50
+    },
+    {
+      "item": "modular-processor",
+      "amount": 5
+    }
+  ],
+  "category": "power",
+  "research": {
+    "parent": "modular-solar-generator",
+    "requirements": [
+      "greetanium/200",
+      "modular-processor/100"
+    ]
+    "objectives": [
+       {
+         "type": "OnSector",
+         "preset": "hillious"
+       }
+     ]
+  }
+}

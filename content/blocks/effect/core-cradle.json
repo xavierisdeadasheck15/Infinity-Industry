@@ -1,0 +1,20 @@
+{
+    "name": "Core: Cradle",
+    "description": "Second Core, Protect it at all Cost",
+    "type": "CoreBlock",
+    "isFirstTier": false,
+    "alwaysUnlocked": false,
+    "health": 2500,
+    "size": 4,
+    "buildTime": 50,
+    "squareSprite": false,
+    "itemCapacity": 30000,
+    "unitCapModifier": 40,
+    "thrusterLength": 7,
+    "unitType": "tectaphase",
+    "requirements": [
+      "frictanium/2000",
+    ],
+    "category": "effect",
+    "research": "core-frame"
+}

@@ -1,0 +1,33 @@
+{
+    "type": "UnitCargoLoader",
+    "name": "Modular Transportation Aerial",
+    "description": "Constructs Zirvon, Deliver Mass Amount of Source toward the Receiver base of the resource it need",
+    "size": 3,
+    "health": 1000,
+    "unitType": "zirvon",
+    "itemCapacity": 200,
+    "liquidCapacity": 20,
+    "separateItemCapacity": true,
+    "requirements": 
+    [
+	"frictanium/100",
+	"modular-processor/5"
+    ],
+    "category": "distribution",
+    "buildTime": 300,
+    "hasItems": true,
+    "hasPower": true,
+    "hasLiquids": true,
+    "consumes":
+    {
+        "power": 2,
+        "liquid": "refreshed-pollute/0.2"
+  }
+    research: {
+  parent: frictor-pipeline
+  requirements: [
+    frictanium/500
+    modular-processor/100
+  ]
+}
+}

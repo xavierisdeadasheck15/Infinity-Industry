@@ -1,0 +1,45 @@
+{
+  "type": "mendProjector",
+  "name": "Modular Repair",
+  "description": "Repair a Damaged Block",
+  "health": 500,
+  "size": 2,
+  "buildTime": 2,
+  "squareSprite": false,
+  "buildCostMultiplier": 0.15,
+  "reload": 100,
+  "range": 100,
+  "healPercent": 10,
+  "itemCapacity": 20,
+  "hasPower": true,
+  "phaseBoost": 5,
+  "phaseRangeBoost": 25,
+  "consumes": {
+	"power": 2.5,
+	"items": {
+		"items": [
+   "greetanium/1",
+		],
+        "booster": true,
+        "optional": true
+	}
+},
+  "requirements": [
+	"greetanium/100",
+	"modular-processor/20",
+],
+  "category": "effect",
+  "research": {
+  "parent": "core-frame",
+    "requirements": [
+      "greetanium/100",
+      "greetanium/20"
+    ]
+  "objectives": [
+      {
+         "type": "OnSector",
+         "preset": "hillious"
+      }
+   ]
+ }
+}

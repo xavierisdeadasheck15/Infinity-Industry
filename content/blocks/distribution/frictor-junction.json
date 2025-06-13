@@ -1,0 +1,14 @@
+{
+  "name": "Frictor Junction",
+  "description": "Acts as a bridge for two crossing both Pipeline",
+  "type": "Junction",
+  "speed": 4,
+  "health": 125,
+  "size": 1,
+  "requirements": [
+    "raw-frictor/1"
+  ]
+  "category": "distribution",
+  "research": "frictor-pipeline",
+  "parent": "frictor-pipeline",
+}

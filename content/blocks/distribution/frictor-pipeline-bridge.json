@@ -1,0 +1,20 @@
+{
+  "type": "ItemBridge",
+  "name": "Frictor Pipeline Bridge",
+  "description": "Transports items over terrain or buildings. Less faster version",
+  "health": 500,
+  "requirements": [
+    {
+      "item": "raw-frictor",
+      "amount": 5
+    }
+  ],
+  "range": 7,
+  "transportTime": 4,
+  "hasPower": false,
+  "category": "distribution",
+  "research": "frictor-router"
+  "researchCost": [
+    "raw-frictor/50"
+  ],
+}

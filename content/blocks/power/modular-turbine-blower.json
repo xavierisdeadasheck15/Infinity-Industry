@@ -1,0 +1,57 @@
+{
+  "type": "ConsumeGenerator",
+  "size": 2,
+  "name": "Modular Turbine Blower",
+  "description": "A Medium Module to Blow away Bioproduct gas, also produce Power in result",
+  "hasPower": true,
+  "powerProduction": 3,
+  "buildTime": 5,
+  "liquidCapacity": 20,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "rotateSpeed": -20,
+        "spinSprite": true
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  },
+  "consumes": {
+    "liquid": {
+      "liquid": "scumthane",
+      "amount": 0.1
+    }
+  },
+  "requirements": [
+    {
+      "item": "frictanium",
+      "amount": 100
+    },
+    {
+      "item": "modular-processor",
+      "amount": 5
+    },
+    {
+      "item": "modular-gear",
+      "amount": 5
+    },
+  ],
+  "category": "power",
+  "research": {
+    "parent": "modular-burner-generator",
+    "requirements": [
+      "frictanium/200",
+      "modular-processor/10",
+      "modular-gear/10"
+    ]
+  }
+}

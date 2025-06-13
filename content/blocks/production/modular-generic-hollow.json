@@ -1,0 +1,73 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Generic Hollow",
+  "description": "An Extra Modular to Produce Hollow",
+  "buildTime": 1,
+  "squareSprite": false,
+  "size": 4,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-rim",
+        "color": "FFFFFF"
+      }
+    ]
+  },
+  "craftTime": 50,
+  "itemCapacity": 10,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        {
+          "item": "raw-greenor",
+          "amount": 10
+        }
+        {
+          "item": "frictanium",
+          "amount": 1
+        }
+        {
+          "item": "greetanium",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 50
+    }
+    {
+      "item": "frictanium",
+      "amount": 50
+    }
+    {
+      "item": "maltixian",
+      "amount": 50
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "modular-generic-gear",
+    "requirements": [
+      "greetanium/100"
+      "frictanium/100"
+      "maltixian/100"
+    ]
+  }
+  "outputItem": {
+    "item": "modular-hollow",
+    "amount": 1
+  },
+  "health": 1000
+}

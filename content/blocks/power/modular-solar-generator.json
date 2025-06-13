@@ -1,0 +1,24 @@
+{
+  "type": "SolarGenerator",
+  "size": 2,
+  "name": "Modular Solar Generator",
+  "description": "A Starter Modular to generate solar",
+  "hasPower": true,
+  "drawRim": true,
+  "buildTime": 5,
+  "squareSprite": false,
+  "powerProduction": 1,
+  "requirements": [
+    {
+      "item": "raw-greenor",
+      "amount": 100
+    }
+  ],
+  "category": "power",
+  "research": {
+    "parent": "core-frame",
+    "requirements": [
+      "raw-greenor/200"
+    ]
+  }
+}

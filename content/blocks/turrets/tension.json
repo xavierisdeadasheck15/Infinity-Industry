@@ -1,0 +1,152 @@
+{
+  "type": "ItemTurret",
+  "name": "Tension",
+  "description": "Annihilator Railgun, Consume a heck of a ammunition for the cost of Insane Damage output",
+  "size": 3,
+  "health": 2000,
+  "buildTime": 15,
+  "squareSprite": false,
+  "maxAmmo": 200,
+  "ammoPerShot": 200,
+  "reload": 1000,
+  "range": 1000,
+  "shootY": 8,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 2,
+  "inaccuracy": 0,
+  "recoilAmount": 100,
+  "restitution": 0.8,
+  "predictTarget": false,
+  "shootSound": "laserblast",
+  "chargeSound": "lasercharge",
+  "shoot": {
+    "firstShotDelay": 100
+  },
+  "ammoTypes": {
+    "greetanium": {
+      "type": "ContinuousBulletType",
+      "length": 2000,
+      "shake": 1,
+      "damageInterval": 10,
+      "damage": 1000,
+      "frontColor": "8D2DBA",
+      "backColor": "662585",
+      "hitEffect": "railHit",
+      "despawnEffect": "railHit",
+      "shootEffect": "shootBig2",
+      "smokeEffect": "railShoot",
+      "status": "unmoving",
+      "statusDuration": 100
+    },
+    "frictanium": {
+      "type": "ContinuousBulletType",
+      "length": 2000,
+      "shake": 1.2,
+      "damageInterval": 8,
+      "damage": 2000,
+      "frontColor": "8D2DBA",
+      "backColor": "662585",
+      "hitEffect": "railHit",
+      "despawnEffect": "railHit",
+      "shootEffect": "shootBig2",
+      "smokeEffect": "railShoot",
+      "status": "unmoving",
+      "statusDuration": 120
+    },
+    "maltixian": {
+      "type": "ContinuousBulletType",
+      "length": 2000,
+      "shake": 1.4,
+      "damageInterval": 6,
+      "damage": 3000,
+      "frontColor": "8D2DBA",
+      "backColor": "662585",
+      "hitEffect": "railHit",
+      "despawnEffect": "railHit",
+      "shootEffect": "shootBig2",
+      "smokeEffect": "railShoot",
+      "status": "unmoving",
+      "statusDuration": 140
+    },
+    "scalarian": {
+      "type": "ContinuousBulletType",
+      "length": 2000,
+      "shake": 1.2,
+      "damageInterval": 4,
+      "damage": 4000,
+      "frontColor": "8D2DBA",
+      "backColor": "662585",
+      "hitEffect": "railHit",
+      "despawnEffect": "railHit",
+      "shootEffect": "shootBig2",
+      "smokeEffect": "railShoot",
+      "status": "unmoving",
+      "statusDuration": 160
+    },
+    "tensarian": {
+      "type": "ContinuousBulletType",
+      "length": 2000,
+      "shake": 1.2,
+      "damageInterval": 2,
+      "damage": 5000,
+      "frontColor": "8D2DBA",
+      "backColor": "662585",
+      "hitEffect": "railHit",
+      "despawnEffect": "railHit",
+      "shootEffect": "shootBig2",
+      "smokeEffect": "railShoot",
+      "status": "unmoving",
+      "statusDuration": 180
+    }
+  },
+  "requirements": [
+    {
+      "item": "scalarian",
+      "amount": 200
+    },
+    {
+      "item": "modular-processor",
+      "amount": 50
+    },
+    {
+      "item": "modular-hollow",
+      "amount": 30
+    }
+  ],
+  "category": "turret",
+  "research": "beam",
+  "researchCostMultiplier": 2,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrels",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "heatProgress": "recoil",
+        "moveY": -5
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-left-coil",
+        "mirror": false,
+        "under": true,
+        "progress": "warmup",
+        "heatProgress": "recoil",
+        "moveX": -1
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-right-coil",
+        "mirror": false,
+        "under": true,
+        "progress": "warmup",
+        "heatProgress": "recoil",
+        "moveX": 1
+      }
+    ]
+  }
+}

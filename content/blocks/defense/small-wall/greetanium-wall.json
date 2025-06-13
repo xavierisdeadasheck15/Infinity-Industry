@@ -1,0 +1,14 @@
+{
+   "type": "Wall",
+   "name": "Greetanium Wall"
+   "description": "Small Greetanium Wall, Capable to Protect Any Structure Behind it",
+   "size": 1,
+   "health":1000,
+   "buildTime": 1,
+   "category": "defense",
+   "research": "bass",
+   "requirements": [
+      "greetanium/6",
+      "raw-greenor/5",
+     ]
+}

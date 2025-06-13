@@ -1,0 +1,41 @@
+{
+    "type": "ForceProjector",
+    "name": "Modular Scalar Shield",
+    "description": "Protect Any Unit & Block in its surrounding",
+    "health": 2500,
+    "shieldHealth": 5000,
+    "size": 2,
+    "sides": 8,
+    "buildTime": 19.5,
+    "squareSprite": false,
+    "shieldRotation":22.5,
+    "liquidCapacity": 50,
+    "itemCapacity": 50,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquid": true,
+    "canOverdrive": true,
+    "phaseUseTime": 400,
+    "phaseShieldBoost": 50,
+    "solid": true,
+    "radius": 150,
+    "cooldownNormal": 5,
+    "cooldownLiquid": 2,
+    "cooldownBrokenBase": 3.5,
+    "consumes": {
+      "power": 5,
+      "items": {
+        "items": [
+          "scalarian/1"
+        ],
+        "optional": true
+      }
+    },
+    "requirements": [
+      "scalarian/100",
+      "modular-processor/30",
+      "modular-hollow/10",
+    ],
+    "category": "effect",
+    "research": "modular-repair"
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "Maltix Router",
+  "description": "Distributes items to 3 output directions and equally faster.",
+  "type": "Router",
+  "dumpTime": 3,
+  "speed": 3,
+  "health": 160,
+  "itemCapacity": 20,
+  "size": 1,
+  "requirements": [
+    "raw-maltix/1"
+  ]
+  "category": "distribution",
+  "research": "maltix-junction",
+  "parent": "maltix-pipeline",
+}

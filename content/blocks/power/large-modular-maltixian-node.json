@@ -1,0 +1,23 @@
+{
+  "type": "PowerNode",
+  "name": "Large Modular Maltixian Node",
+  "description": "An upgrade Large Modular to Connect a Power source to the required modular",
+  "size": 2,
+  "health": 100,
+  "laserRange": 20,
+  "maxNodes": 20,
+  "hasPower": true,
+  "laserColor2": "d500f9",
+  "category": "power",
+  "requirements": [
+    "raw-maltix/20",
+    "maltixian/5"
+  ],
+  "research": {
+    "parent": "modular-maltixian-node",
+    "requirements": [
+      "raw-maltix/200",
+      "maltixian/50"
+    ]
+  }
+}

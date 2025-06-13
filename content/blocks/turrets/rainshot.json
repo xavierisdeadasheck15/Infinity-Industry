@@ -1,0 +1,94 @@
+{
+  "type": "ItemTurret",
+  "name": "Rainshot",
+  "description": "Triple shooter, Can be switched between Aerial & Ground base on Ammunition it choose, Greetanium used for ground while Frictanium used for Aerial",
+  "size": 2,
+  "health": 1750,
+  "buildTime": 12,
+  "squareSprite": false,
+  "maxAmmo": 25,
+  "ammoPerShot": 1,
+  "reload": 17.5,
+  "range": 375,
+  "shootY": 8,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 5,
+  "inaccuracy": 10,
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 3,
+    "spread": 3,
+    "shots": 9
+  },
+  "recoilAmount": 60,
+  "restitution": 0.8,
+  "shootSound": "bang",
+  "ammoTypes": {
+    "greetanium": {
+      "type": "BasicBulletType",
+      "damage": 10,
+      "collidesAir": false
+      "speed": 2,
+      "pierce": true,
+      "lifetime": 300,
+      "height": 12,
+      "width": 7,
+      "trailColor": "03FC7B",
+      "frontColor": "82FFBE",
+      "backColor": "03FC7B",
+      "trailColor": "00B356",
+      "hitEffect": "hitBulletSmall",
+      "shootEffect": "shootSmall",
+      "smokeEffect": "smokePuff",
+      "trailEffect": "colorTrail",
+      "trailWidth": 1.5,
+      "trailLength": 10,
+    }
+    "frictanium": {
+      "type": "BasicBulletType",
+      "damage": 10,
+      "collidesGround": false
+      "speed": 3,
+      "pierce": true,
+      "lifetime": 300,
+      "height": 12,
+      "width": 7,
+      "trailColor": "0277BD",
+      "frontColor": "42A5F5",
+      "backColor": "1976D2",
+      "trailEffect": "colorTrail",
+      "trailWidth": 1.5,
+      "trailLength": 10,
+      "hitEffect": "hitBulletSmall",
+      "shootEffect": "shootSmall",
+      "smokeEffect": "smokePuff",
+      "trailEffect": "colorTrail",
+      "trailWidth": 1.5,
+      "trailLength": 10,
+    }
+  },
+  "requirements": [
+    {
+      "item": "frictanium",
+      "amount": 50
+    }
+  ],
+  "category": "turret",
+  "research": "astral",
+  "researchCostMultiplier": 1.6,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrels",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "heatProgress": "recoil",
+        "moveY": -4
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+   "type": "ShieldWall",
+   "name": "Scalarian Wall"
+   "description": "Small Scalarian Wall, Capable to Protect Any Structure Behind it, Can Create Barrier",
+   "size": 1,
+   "health": 2000,
+   "shieldHealth": 1000,
+   "buildTime": 1.4,
+   "category": "defense",
+   "research": "maltixian-wall",
+   "envDisabled": 16,
+   "conductivePower":true,
+   "flashHit": true,
+   "consumesPower" :true,
+   "consumes": {
+        "power": 1
+    },
+   "requirements": [
+      "scalarian/6",
+     ]
+}

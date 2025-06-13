@@ -1,0 +1,41 @@
+{
+  "name": "Modular Mining Mech",
+  "description": "A Factory Modular Use to Build a Mining Drone",
+  "type": "UnitFactory",
+  "researchCostMultiplier": 0.3,
+  "buildTime": 10,
+  "squareSprite": false,
+  "size": 2,
+  "consumes": {
+    "power": 3
+  },
+  "plans": [
+    {
+      "unit": "therson",
+      "requirements": [
+        "greetanium/50"
+      ],
+      "time": 100
+    }
+  ],
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 100
+    },
+    {
+      "item": "modular-processor",
+      "amount": 5
+    }
+  ],
+  "category": "units",
+  "research": {
+  "parent": "core-frame",
+  "objectives": [
+      {
+         "type": "OnSector",
+         "preset": "outrange"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Frictor Router",
+  "description": "Distributes items to 3 output directions and equally fast.",
+  "type": "Router",
+  "dumpTime": 4,
+  "speed": 4,
+  "health": 125,
+  "itemCapacity": 20,
+  "size": 1,
+  "requirements": [
+    "raw-frictor/1"
+  ]
+  "category": "distribution",
+  "research": "frictor-junction",
+  "parent": "frictor-pipeline",
+}

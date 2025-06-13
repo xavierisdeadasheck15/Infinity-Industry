@@ -1,0 +1,34 @@
+{
+  "name": "Modular Extractor 1",
+  "description": "A Starter drill, use to extract Greenor",
+  "type": "Drill",
+  "alwaysUnlocked": true,
+  "size": 2,
+  "itemCapacity": 10,
+  "buildTime": 5,
+  "squareSprite": false,
+  "drawRim": true,
+  "tier": 1,
+  "drillTime": 100,
+  "consumes": {
+    "liquid": {
+      "liquid": "polluted",
+      "amount": 0.018,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "raw-greenor",
+      "amount": 25
+    }
+  ],
+  "category": "production",
+  "research": {
+    "parent": "core-frame",
+    "requirements": [
+      "raw-greenor/250"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Modular Splitter",
+  "description": "Split the refreshed Liquid into Magmatic & Scryptic Liquid",
+  "type": "GenericCrafter",
+  "size": 2,
+  "buildTime": 5,
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "FFFFFF"
+      }
+    ]
+  },
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 50,
+  "craftTime": 50,
+  "outputsLiquid": true,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        { "item": "raw-greenor", "amount": 5 },
+        { "item": "raw-frictor", "amount": 5 },
+        { "item": "raw-maltix", "amount": 5 },
+      ]
+    },
+    "liquid": {
+      "liquid": "refreshed-pollute",
+      "amount": 0.2
+    }
+  },
+  "requirements": [
+    { "item": "greetanium", "amount": 100 },
+    { "item": "frictanium", "amount": 100 },
+    { "item": "maltixian", "amount": 100 },
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "modular-cleanser",
+  },
+  "liquidOutputDirections":[1, 3],
+  "outputLiquids": [
+    { "liquid": "magmatic", "amount": 0.1 },
+    { "liquid": "scryptic", "amount": 0.1 }
+  ]
+}

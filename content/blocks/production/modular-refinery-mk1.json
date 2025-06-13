@@ -1,0 +1,55 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Refinery 1",
+  "description": "A Starter Modular to Refine first Resource into Greetanium",
+  "buildTime": 3,
+  "squareSprite": false,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-top",
+        "color": "FFFFFF"
+      }
+    ]
+  },
+  "craftTime": 50,
+  "itemCapacity": 30,
+  "consumes": {
+    "power": 0.5,
+    "items": {
+      "items": [
+        {
+          "item": "raw-greenor",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "raw-greenor",
+      "amount": 50
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "core-frame",
+    "requirements": [
+      "raw-greenor/100"
+    ]
+  }
+  "outputItem": {
+    "item": "greetanium",
+    "amount": 1
+  },
+  "health": 320
+}

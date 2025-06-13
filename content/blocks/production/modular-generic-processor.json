@@ -1,0 +1,65 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Generic Processor",
+  "description": "An Extra Modular to Produce Processor",
+  "buildTime": 1,
+  "squareSprite": false,
+  "size": 4,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-rim",
+        "color": "FFFFFF"
+      }
+    ]
+  },
+  "craftTime": 30,
+  "itemCapacity": 10,
+  "consumes": {
+    "power": 0.5,
+    "items": {
+      "items": [
+        {
+          "item": "raw-greenor",
+          "amount": 5
+        }
+        {
+          "item": "greetanium",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 100
+    }
+  ],
+  "category": "crafting",
+  "research": {
+  "parent": "modular-refinery-mk1",
+    "requirements": [
+      "greetanium/100"
+    ]
+  "objectives": [
+      {
+         "type": "OnSector",
+         "preset": "hillious"
+      }
+   ]
+}
+  "outputItem": {
+    "item": "modular-processor",
+    "amount": 1
+  },
+  "health": 1000
+}

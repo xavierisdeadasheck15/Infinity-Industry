@@ -1,0 +1,58 @@
+{
+  "type": "ConsumeGenerator",
+  "size": 2,
+  "name": "Modular Burner Generator",
+  "description": "A Medium Module to Produce power with 2 resources. It also produces scumthane as a byproduct. Be aware that this will detonate when full.",
+  "hasPower": true,
+  "powerProduction": 3,
+  "buildTime": 6,
+  "explodeOnFull": true,
+  "liquidCapacity": 20,
+  "outputLiquid": {
+    "liquid": "scumthane",
+    "amount": 0.2
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-rim",
+        "color": "66B1FFFF"
+      }
+    ]
+  },
+  "consumes": {
+    "liquid": {
+      "liquid": "polluted",
+      "amount": 0.1
+    },
+    "items": [
+      {
+        "item": "raw-greenor",
+        "amount": 1
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "raw-frictor",
+      "amount": 100
+    },
+    {
+      "item": "greetanium",
+      "amount": 45
+    }
+  ],
+  "category": "power",
+  "research": {
+    "parent": "modular-virus-incinerator",
+    "requirements": [
+      "raw-frictor/200",
+      "greetanium/100"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Raw Greenor",
+  "description": "An Unstable Ore, damage any unit who step in",
+  "itemDrop": "raw-greenor",
+  "hasColor": true,
+  "mapColor": "029c16",
+  "variants": 2,
+  "speedMultiplier": 0.5,
+  "damageTaken": 0.5
+}

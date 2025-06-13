@@ -1,0 +1,63 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Virus Convertion",
+  "description": "A Modular to Combine 5 Greenor into 1 Frictor",
+  "size": 1,
+  "buildTime": 2,
+  "squareSprite": false,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 40,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-rim",
+        "color": "66B1FFFF"
+      }
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "66B1FFFF"
+      }
+    ]
+  },
+  "itemCapacity": 30,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        {
+          "item": "raw-greenor",
+          "amount": 5
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "raw-greenor",
+      "amount": 100
+    }
+  ],
+  "category": "crafting",
+  "research": {
+  "parent": "modular-refinery-mk1",
+  "objectives": [
+      {
+         "type": "OnSector",
+         "preset": "ridget"
+      }
+    ]
+  }
+  "outputItem": {
+    "item": "raw-frictor",
+    "amount": 1
+  },
+  "health": 50
+}

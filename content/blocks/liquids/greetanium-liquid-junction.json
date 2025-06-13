@@ -1,0 +1,22 @@
+{
+ "type": LiquidJunction,
+ "name": "Greetanium Liquor Junction",
+ "description": "Used for crossing two aqueducts.",
+ "size": 1,
+ "solid": false,
+ "underBullets": true,
+ "health": 100,
+ "liquidCapacity": 50,
+ "category": liquid,
+ "requirements": [
+   "greetanium/10",
+   "raw-greenor/4"
+ ]
+  "research": {
+    "parent": "greetanium-liquid-transport",
+    "requirements": [
+      "raw-greenor/10",
+      "greetanium/50"
+    ]
+  }
+}

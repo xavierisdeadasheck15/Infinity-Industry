@@ -1,0 +1,18 @@
+{
+  "type": "Duct",
+  "name": "Greenor Pipeline",
+  "description": "Transfer a resource to the designated place",
+  "category": "distribution",
+  "speed": 5,
+  "health": 100,
+  "research": "raw-greenor",
+  "parent": "core-frame",
+  "researchCost": [
+    "raw-greenor/10"
+  ],
+  "junctionReplacement": "greenor-junction",
+  "bridgeReplacement": "greenor-pipeline-bridge",
+  "requirements": [
+    "raw-greenor/1"
+  ]
+}

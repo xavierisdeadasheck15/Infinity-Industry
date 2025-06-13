@@ -1,0 +1,14 @@
+{
+  "name": "Greenor Junction",
+  "description": "Acts as a bridge for two crossing both Pipeline",
+  "type": "Junction",
+  "speed": 5,
+  "health": 100,
+  "size": 1,
+  "requirements": [
+    "raw-greenor/1"
+  ]
+  "category": "distribution",
+  "research": "greenor-pipeline",
+  "parent": "greenor-pipeline",
+}

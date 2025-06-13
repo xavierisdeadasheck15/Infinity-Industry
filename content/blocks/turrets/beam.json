@@ -1,0 +1,87 @@
+{
+"type": "LaserTurret",
+"name": "Beam",
+"description": "Blast a long laser beam at enemy",
+"size": 3,
+"shootDuration": 250,
+"heatColor": "87ceeb",
+"health": 3600,
+"buildTime": 20,
+"squareSprite": false,
+"range": 310,
+"firingMoveFract": 0.5,
+"targetAir": true,
+"targetGround": true,
+"update": true,
+"hasPower": true,
+"hasLiquid": true,
+"powerCapacity": 450,
+"shootCone": 10,
+"shootY": 6,
+"rotateSpeed": 4,
+"coolantUsage": 0.5,
+"coolantMultiplier": 1.25,
+"reload": 100,
+"recoil": 1,
+"shootSound": "none",
+"loopSound": "laserbeam",
+"consumes": {
+  "power": 2,
+  "coolant": {
+		"amount": 0.35
+	}
+},
+"shootType": {
+  "type": "ContinuousLaserBulletType",
+  "damage": 75,
+  "length": 300,
+  "oscScl": 2,
+  "oscMag":	2,
+  "colors" : [517c8c, 486acd, 87ceeb,  c0ecff, ffffffff],
+  "hitEffect": "none",
+  "width": 2
+},
+  "requirements" : [
+    {
+      "item": "tensarian",
+      "amount": 200
+    }
+  ],
+  "category": "turret",
+  "research": "burster",
+  "researchCostMultiplier": 2.5
+  "drawer": {
+      "type": "DrawTurret",
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "-cell",
+          "mirror": false,
+          "under": true,
+          "progress": "recoil",
+          "heatprogress": "recoil",
+          "moveY": -5
+         },
+        {
+          "type": "RegionPart",
+          "suffix": "-wing-left",
+          "mirror": false,
+          "under": true,
+          "progress": "recoil",
+          "heatprogress": "recoil",
+          "moveY": -3,
+          "moveX": -5
+         },
+        {
+          "type": "RegionPart",
+          "suffix": "-wing-right",
+          "mirror": false,
+          "under": true,
+          "progress": "recoil",
+          "heatprogress": "recoil",
+          "moveY": -3,
+          "moveX": 5
+         },
+      ]
+   }
+}

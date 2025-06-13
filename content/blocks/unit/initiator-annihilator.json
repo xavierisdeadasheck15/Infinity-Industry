@@ -1,0 +1,69 @@
+{
+  "name": "Initiator Annihilator",
+  "description": "[red]An Factory to Build 3 Fallen Assistance of META",
+  "type": "UnitFactory",
+  "researchCostMultiplier": 0.5,
+  "buildTime": 10,
+  "squareSprite": false,
+  "size": 6,
+  "consumes": {
+    "power": 5
+  },
+  "plans": [
+    {
+      "unit": "zeta",
+      "requirements": [
+        "dark-iron/1000",
+        "initiator-plate/500",
+        "initiator-circuit/100",
+        "initiator-cell-core/40",
+        "copper/200",
+        "titanium/100"
+      ],
+      "time": 500
+    },
+    {
+      "unit": "teta",
+      "requirements": [
+        "dark-iron/1000",
+        "initiator-plate/500",
+        "initiator-circuit/100",
+        "initiator-cell-core/50"
+      ],
+      "time": 400
+    },
+    {
+      "unit": "neta",
+      "requirements": [
+        "dark-iron/1000",
+        "initiator-plate/500",
+        "initiator-circuit/100",
+        "initiator-cell-core/50",
+        "thorium/200",
+        "phase-fabric/200",
+        "plastanium/100"
+      ],
+      "time": 600
+    },
+  ],
+  "requirements": [
+    {
+      "item": "dark-iron",
+      "amount": 100
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 125
+    },
+    {
+      "item": "copper",
+      "amount": 50
+    },
+    {
+      "item": "initiator-circuit",
+      "amount": 5
+    }
+  ],
+  "category": "units",
+  "research": "ground-factory"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Modular Extractor 2",
+  "description": "A Better drill, use to extract Both Greenor & Frictor",
+  "type": "Drill",
+  "size": 2,
+  "itemCapacity": 15,
+  "buildTime": 6.5,
+  "squareSprite": false,
+  "drawRim": true,
+  "tier": 2,
+  "drillTime": 90,
+  "consumes": {
+    "liquid": {
+      "liquid": "polluted",
+      "amount": 0.020,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "raw-frictor",
+      "amount": 25
+    },
+    {
+      "item": "greetanium",
+      "amount": 10
+    }
+  ],
+  "category": "production",
+  "research": {
+  "parent": "modular-extractor-mk1",
+  "objectives": [
+      {
+         "type": "OnSector",
+         "preset": "skyline"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Modular Cleanser",
+  "description": "Clean up the Bitter into a refreshed Liquid",
+  "type": "GenericCrafter",
+  "size": 1,
+  "buildTime": 5,
+  "squareSprite": false,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 50,
+  "craftTime": 50,
+  "outputsLiquid": true,
+  "consumes": {
+    "power": 1,
+    "liquid": {
+      "liquid": "polluted",
+      "amount": 0.2
+    }
+  },
+  "requirements": [
+    { "item": "greetanium", "amount": 50 },
+    { "item": "frictanium", "amount": 50 },
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "modular-refinery-mk2",
+  },
+  "outputLiquids": [
+    { "liquid": "refreshed-pollute", "amount": 0.2 }
+  ]
+}

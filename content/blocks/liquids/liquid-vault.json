@@ -1,0 +1,15 @@
+{	
+  "type": "LiquidRouter",
+  "name": "Liquid Vault",
+  "description": "Liquid Storage",
+  "size": 3, 
+  "buildTime": 5,
+  "liquidCapacity": 4000,
+  "health": 1500,
+  "requirements": [
+    "greetanium/200",
+    "raw-greenor/1000"
+	],
+  "category": "liquid",
+  "research": "modular-pump"
+}

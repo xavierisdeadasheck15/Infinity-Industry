@@ -1,0 +1,20 @@
+{
+  "type": "ItemBridge",
+  "name": "Greenor Pipeline Bridge",
+  "description": "Transports items over terrain or buildings.",
+  "health": 250,
+  "requirements": [
+    {
+      "item": "raw-greenor",
+      "amount": 5
+    }
+  ],
+  "range": 5,
+  "transportTime": 5,
+  "hasPower": false,
+  "category": "distribution",
+  "research": "greenor-router"
+  "researchCost": [
+    "raw-greenor/50"
+  ],
+}

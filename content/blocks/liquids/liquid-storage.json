@@ -1,0 +1,15 @@
+{	
+  "type": "LiquidRouter",
+  "name": "Liquid Storage",
+  "description": "Larger Storage",
+  "size": 4, 
+  "buildTime": 1.5,
+  "liquidCapacity": 5000,
+  "health": 1750,
+  "requirements": [
+    "greetanium/250",
+    "raw-greenor/1500"
+	],
+  "category": "liquid",
+  "research": "liquid-vault"
+}

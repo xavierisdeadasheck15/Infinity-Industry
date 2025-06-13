@@ -1,0 +1,76 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Scalarian Mixture",
+  "description": "The Near End Modular use to Cooldown Liquid into Scalarian, as a Bioproduct, it also produce slag :)",
+  "health": 650
+  "size": 2,
+  "buildTime": 5,
+  "squareSprite": false,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "outputsLiquid": true,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "FFFFFF"
+      }
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "rotateSpeed": -5,
+        "spinSprite": true
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  },
+  "craftTime": 100,
+  "itemCapacity": 30,
+  "liquidCapacity": 100,
+  "consumes": {
+    "power": 2,
+    "liquid": {
+      "liquid": "magmatic",
+      "amount": 0.2
+    }
+  },
+  "requirements": [
+    {
+      "item": "modular-processor",
+      "amount": 10
+    }
+    {
+      "item": "maltixian",
+      "amount": 100
+    }
+    {
+      "item": "modular-gear",
+      "amount": 10
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "modular-refinery-mk3",
+    "requirements": [
+      "modular-processor/100",
+      "maltixian/100",
+      "modular-gear/100"
+    ]
+  }
+  "outputItem": {
+    "item": "scalarian",
+    "amount": 5
+  },
+  "outputLiquids": [
+    { "liquid": "slag", "amount": 0.1 }
+  ]
+}

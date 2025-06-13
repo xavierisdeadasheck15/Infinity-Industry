@@ -1,0 +1,26 @@
+{	
+  "type": "Pump",
+  "name": "Modular Pump",
+  "description": "Extract Any Liquid under it",
+  "size": 1, 
+  "liquidCapacity": 100,
+  "pumpAmount": 0.5,
+  "buildTime": 1.5,
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 100
+    }
+    {
+      "item": "modular-processor",
+      "amount": 5
+    }
+    {
+      "item": "modular-gear",
+      "amount": 20
+    }
+  ],
+  "category": "liquid",
+  "research": "modular-extractor-mk1",
+  "researchCostMultiplier": 1.1
+}

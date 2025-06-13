@@ -1,0 +1,14 @@
+{
+   "type": "Wall",
+   "name": "Large Maltixian Wall"
+   "description": "Large Maltixian Wall, Capable to Protect Any Structure Behind it",
+   "size": 2,
+   "health": 6000,
+   "buildTime": 1.6,
+   "category": "defense",
+   "research": "frictanium-wall",
+   "requirements": [
+      "maltixian/24",
+      "raw-maltix/10",
+     ]
+}

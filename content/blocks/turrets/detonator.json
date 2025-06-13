@@ -1,0 +1,85 @@
+{
+  "type": "ItemTurret",
+  "name": "Detonator",
+  "description": "Short bomber thrower turret",
+  "size": 2,
+  "health": 1500,
+  "buildTime": 13,
+  "squareSprite": false,
+  "maxAmmo": 12,
+  "ammoPerShot": 1,
+  "reload": 75,
+  "range": 225,
+  "shootY": 5,
+  "targetAir": false,
+  "targetGround": true,
+  "rotateSpeed": 2,
+  "inaccuracy": 0,
+  "recoilAmount": 100,
+  "restitution": 0.8,
+  "shootSound": "artillery",
+  "ammoTypes": {
+    "greetanium": {
+      "type": "BasicBulletType",
+      "damage": 75,
+      "splashDamageRadius": 50,
+      "splashDamage": 35,
+      "collidesAir": false,
+      "speed": 2,
+      "lifetime": 300,
+      "height": 8,
+      "width": 8,
+      "homingPower": 2,
+      "homingRange": 50,
+      "trailColor": "C21739",
+      "frontColor": "FF4049",
+      "backColor": "C21739",
+      "hitEffect": "massiveExplosion",
+      "shootEffect": "shootTitan",
+      "smokeEffect": "shootBigSmoke",
+      "trailEffect": "colorTrail",
+      "trailWidth": 2.5,
+      "trailLength": 10,
+      "status": "blasted",
+      "statusDuration": 50
+    }
+  },
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 50
+    }
+  ],
+  "category": "turret",
+  "research": {
+  "parent": "ranger",
+  "objectives": [
+      {
+         "type": "OnSector",
+         "preset": "turninground"
+      }
+   ]
+}
+  "researchCostMultiplier": 1.2,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrels",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveY": -3
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-ejector",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveY": -4
+      }
+    ]
+  }
+}

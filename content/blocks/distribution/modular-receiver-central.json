@@ -1,0 +1,26 @@
+{
+    "type": "UnitCargoUnloadPoint",
+    "name": "Modular Receiver Central",
+    "description": "unload a picked resource to the destinated place",
+    "size": 2,
+    "health": 500,
+    "itemCapacity": 200,
+    "liquidCapacity": 0,
+    "separateItemCapacity": true,
+    "requirements": 
+    [
+	"greetanium/10"
+    ],
+    "category": "distribution",
+    "hasItems": true,
+    "hasLiquids": false,
+    "outputsLiquid": false,
+    "outputItems": true,
+    "buildTime": 200,
+    research: {
+  parent: modular-transportation-aerial
+  requirements: [
+    greetanium/100
+  ]
+}
+}

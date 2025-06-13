@@ -1,0 +1,62 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Refinery 2",
+  "description": "A Better Modular to Refine 2nd Resource into Frictanium",
+  "buildTime": 3,
+  "squareSprite": false,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-top",
+        "color": "FFFFFF"
+      }
+    ]
+  },
+  "craftTime": 50,
+  "itemCapacity": 30,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        {
+          "item": "raw-frictor",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 100
+    }
+    {
+      "item": "raw-frictor",
+      "amount": 50
+    }
+  ],
+  "category": "crafting",
+  "research": {
+  "parent": "modular-extractor-mk1",
+  "objectives": [
+      {
+         "type": "OnSector",
+         "preset": "skyline"
+      }
+    ]
+  }
+  "outputItem": {
+    "item": "frictanium",
+    "amount": 1
+  },
+  "health": 320
+}

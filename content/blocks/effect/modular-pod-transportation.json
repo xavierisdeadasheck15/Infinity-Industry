@@ -1,0 +1,30 @@
+{
+  "type": "LaunchPad",
+  "name": "Modular Pod Transportation",
+  "description": "A Huge Modular to Transport your needed Resource onto the designated Core!",
+  "details": "A Good Way to transport those mass resource to your other Sector!"
+  "health": 1000,
+  "size": 4,
+  "buildTime": 15.5,
+  "squareSprite": false,
+  "launchTime": 500,
+  "itemCapacity": 100,
+  "consumes": {
+     "power": 15,
+   },
+  "requirements": [
+    "greetanium/100",
+    "modular-processor/50",
+  ],
+  "category": "effect",
+  "buildVisibility":"campaignOnly",
+  "research": {
+    "parent": "core-frame",
+    "objectives": [
+        {
+           "type": "SectorComplete",
+           "preset": "rusher"
+        }
+     ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "Floor",
+  "speedMultiplier": 0.5,
+  "name": "Polluted",
+  "variants": 5,
+  "isLiquid": "true",
+  "albedo": 0.5,
+  "cacheLayer": "water",
+  "liquidDrop": "polluted"
+}

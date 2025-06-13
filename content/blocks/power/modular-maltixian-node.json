@@ -1,0 +1,23 @@
+{
+  "type": "PowerNode",
+  "name": "Modular Maltixian Node",
+  "description": "An upgrade Modular to Connect a Power source to the required modular",
+  "size": 1,
+  "health": 100,
+  "laserRange": 10,
+  "maxNodes": 10,
+  "hasPower": true,
+  "laserColor2": "d500f9",
+  "category": "power",
+  "requirements": [
+    "raw-maltix/5",
+    "maltixian/1"
+  ],
+  "research": {
+    "parent": "modular-frictanium-node",
+    "requirements": [
+      "raw-maltix/50",
+      "maltixian/10"
+    ]
+  }
+}

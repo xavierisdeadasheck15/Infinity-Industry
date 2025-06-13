@@ -1,0 +1,75 @@
+{
+  "type": "ItemTurret",
+  "name": "Discharge",
+  "description": "Electric Unleashing Turret",
+  "size": 2,
+  "health": 2000,
+  "buildTime": 9,
+  "squareSprite": false,
+  "maxAmmo": 25,
+  "ammoPerShot": 1,
+  "reload": 20,
+  "range": 300,
+  "shootY": 5,
+  "consumes": {
+    "power": 2.5,
+  }
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 4,
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 2,
+    "spread": 5,
+    "shots": 4
+  },
+  "recoilAmount": 60,
+  "restitution": 0.8,
+  "shootSound": "spark",
+  "ammoTypes": {
+    "maltixian": {
+      "type": "LightningBulletType",
+      "damage": 25,
+      "lightningLength": 50,
+      "trailColor": "03FC7B",
+      "frontColor": "82FFBE",
+      "backColor": "03FC7B",
+      "trailColor": "00B356",
+      "hitEffect": "lightning",
+      "shootEffect": "lightningShoot",
+      "smokeEffect": "lightning",
+    }
+  },
+  "requirements": [
+    {
+      "item": "maltixian",
+      "amount": 75
+    }
+  ],
+  "category": "turret",
+  "research": "juggernaut",
+  "researchCostMultiplier": 1.5,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrels",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "heatprogress": "recoil",
+        "moveY": -3
+      }
+      {
+        "type": "RegionPart",
+        "suffix": "-battery",
+        "mirror": false,
+        "under": true,
+        "progress": "warmup",
+        "heatprogress": "recoil",
+        "moveY": -4
+      }
+    ]
+  }
+}

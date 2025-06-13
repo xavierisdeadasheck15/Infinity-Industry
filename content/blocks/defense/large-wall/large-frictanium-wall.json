@@ -1,0 +1,14 @@
+{
+   "type": "Wall",
+   "name": "Large Frictanium Wall"
+   "description": "Large Frictanium Wall, Capable to Protect Any Structure Behind it",
+   "size": 2,
+   "health": 4000,
+   "buildTime": 1.4,
+   "category": "defense",
+   "research": "frictanium-wall",
+   "requirements": [
+      "frictanium/24",
+      "raw-frictor/10",
+     ]
+}

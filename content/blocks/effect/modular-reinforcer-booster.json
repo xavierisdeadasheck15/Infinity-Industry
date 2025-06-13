@@ -1,0 +1,28 @@
+{
+  "type": "OverdriveProjector",
+  "name": "Modular Reinforcer Booster",
+  "description": "A Booster Modular, Boost nearby block, Be aware to not nearby electric block unless it neccessary",
+  "health": 750,
+  "range": 75,
+  "size": 2,
+  "buildTime": 12.5,
+  "squareSprite": false,
+  "hasBoost": false,
+  "speedBoost": 2,
+  "reload": 1,
+  "research": "modular-repair",
+  "category": "effect",
+  "consumes": {
+    "power": 1.5
+  },
+  "requirements": [
+    {
+      "item": "maltixian",
+      "amount": 50
+    },
+    {
+      "item": "modular-processor",
+      "amount": 10
+    }
+  ]
+}

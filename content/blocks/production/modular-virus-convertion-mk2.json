@@ -1,0 +1,65 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Virus Convertion 2",
+  "description": "A Modular to Combine 5 frictor into 1 maltix",
+  "size": 1,
+  "buildTime": 3,
+  "squareSprite": false,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 40,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-rim",
+        "color": "66B1FFFF"
+      }
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "66B1FFFF"
+      }
+    ]
+  },
+  "itemCapacity": 30,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        {
+          "item": "raw-frictor",
+          "amount": 5
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "raw-frictor",
+      "amount": 100
+    }
+    {
+      "item": "greetanium",
+      "amount": 50
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "modular-refinery-mk1",
+    "requirements": [
+      "raw-frictor/200",
+      "greetanium/100"
+    ]
+  }
+  "outputItem": {
+    "item": "raw-maltix",
+    "amount": 1
+  },
+  "health": 50
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Core: Frame",
+    "description": "First Core, Protect it at all Cost",
+    "type": "CoreBlock",
+    "isFirstTier": true,
+    "alwaysUnlocked": true,
+    "health": 2500,
+    "size": 4,
+    "buildTime": 45,
+    "squareSprite": false,
+    "itemCapacity": 20000,
+    "unitCapModifier": 30,
+    "thrusterLength": 7,
+    "unitType": "frametical",
+    "requirements": [
+      "greetanium/2000",
+    ],
+    "category": "effect",
+    "research": {
+       "planet": "newcylistial",
+       "root": true,
+       "name": "Cylistial",
+       "requiresUnlock": false
+    }
+}

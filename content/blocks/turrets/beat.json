@@ -1,0 +1,117 @@
+{
+  "type": "ItemTurret",
+  "name": "Beat",
+  "description": "Stun enemy in a all-wide area, highly effective at dealing with a shielded unit",
+  "size": 2,
+  "health": 1750,
+  "buildTime": 13,
+  "squareSprite": false,
+  "maxAmmo": 25,
+  "ammoPerShot": 1,
+  "reload": 150,
+  "range": 250,
+  "shootY": 0,
+  "targetAir": false,
+  "targetGround": true,
+  "rotateSpeed": 1,
+  "inaccuracy": 0,
+  "recoilAmount": 0,
+  "restitution": 0.8,
+  "shootSound": "hardcore-blast",
+  "ammoTypes": {
+    "frictanium": {
+      "type": "BasicBulletType",
+      "damage": 5,
+      "speed": 0,
+      "lifetime": 1,
+      "height": 12,
+      "width": 7,
+      "trailColor": "FFFFFF",
+      "frontColor": "FFFFFF",
+      "backColor": "FFFFFF",
+      "hitEffect": "shockwave",
+      "shootEffect": "bigShockwave",
+      "smokeEffect": "smokePuff",
+      "trailEffect": "colorTrail",
+      "trailWidth": 1.5,
+      "trailLength": 10,
+      "status": "unmoving",
+      "statusDuration": 100,
+      "fragBullets": 350,
+      "fragVelocityMin": 1,
+      "fragVelocityMax": 1,
+      "fragLifeMin": 1,
+      "fragLifeMax": 1,
+      "fragSpread": 2,
+      "keepVelocity": false,
+      "fragBullet": {
+        "speed": 10,
+        "lifetime": 25,
+        "pierce": true,
+        "damage": 5,
+        "knockback": 5,
+        "impact": true,
+        "shieldDamageMultiplier": 1000,
+        "collidesAir": false,
+        "pierceBuilding": true,
+        "trailColor": "FFFFFF",
+        "frontColor": "FFFFFF",
+        "backColor": "FFFFFF",
+        "hitSound": "hardcore-hit",
+        "width": 45,
+        "height": 20,
+        "hitSize": 15,
+        "impact": true,
+        "status": "unmoving",
+        "statusDuration": 50,
+        "keepVelocity": false
+      }
+    }
+  },
+  "requirements": [
+    {
+      "item": "frictanium",
+      "amount": 125
+    }
+  ],
+  "category": "turret",
+  "research": "slasher",
+  "researchCostMultiplier": 1.6,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-jammer-down",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveY": -3
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-jammer-up",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveY": 3
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-jammer-right",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveX": 3
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-jammer-left",
+        "mirror": false,
+        "under": true,
+        "progress": "recoil",
+        "moveX": -3
+      }
+    ]
+  }
+}

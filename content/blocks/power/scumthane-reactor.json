@@ -1,0 +1,68 @@
+{
+  "type": "ConsumeGenerator",
+  "size": 3,
+  "name": "Scumthane Reactor",
+  "description": "A Well Size Reactor to Produce power with Just Scumthane",
+  "hasPower": true,
+  "hasLiquids": true,
+  "powerProduction": 5,
+  "buildTime": 6,
+  "explodeOnFull": true,
+  "liquidCapacity": 20,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-rim",
+        "color": "F44336"
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "scumthane"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "rotateSpeed": 15,
+        "spinSprite": true
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  },
+  "consumes": {
+    "liquid": {
+      "liquid": "scumthane",
+      "amount": 0.2
+    },
+  },
+  "requirements": [
+    {
+      "item": "maltixian",
+      "amount": 100
+    },
+    {
+      "item": "modular-processor",
+      "amount": 10
+    },
+    {
+      "item": "modular-gear",
+      "amount": 5
+    }
+  ],
+  "category": "power",
+  "research": {
+    "parent": "modular-turbine-blower",
+    "requirements": [
+      "maltixian/200",
+      "modular-processor/50",
+      "modular-gear/10"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "Duct",
+  "name": "Frictor Pipeline",
+  "description": "Transfer a resource in a less faster to the designated place",
+  "category": "distribution",
+  "speed": 4,
+  "health": 125,
+  "research": "raw-frictor",
+  "parent": "greenor-pipeline",
+  "researchCost": [
+    "raw-frictor/10"
+  ],
+  "junctionReplacement": "frictor-junction",
+  "bridgeReplacement": "frictor-pipeline-bridge",
+  "requirements": [
+    "raw-frictor/1"
+  ]
+}

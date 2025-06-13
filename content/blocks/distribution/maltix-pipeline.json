@@ -1,0 +1,18 @@
+{
+  "type": "Duct",
+  "name": "Maltix Pipeline",
+  "description": "Transfer a resource in a faster to the designated place",
+  "category": "distribution",
+  "speed": 3,
+  "health": 150,
+  "research": "raw-maltix",
+  "parent": "frictor-pipeline",
+  "researchCost": [
+    "raw-maltix/10"
+  ],
+  "junctionReplacement": "maltix-junction",
+  "bridgeReplacement": "maltix-pipeline-bridge",
+  "requirements": [
+    "raw-maltix/1"
+  ]
+}

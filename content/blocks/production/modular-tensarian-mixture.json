@@ -1,0 +1,76 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Tensarian Mixture",
+  "description": "The Endgame Modular use to Cooldown Liquid into Tensarian, as a Bioproduct, it also produce Cryofluid :)",
+  "health": 650
+  "size": 2,
+  "buildTime": 5,
+  "squareSprite": false,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "outputsLiquid": true,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "FFFFFF"
+      }
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "rotateSpeed": -5,
+        "spinSprite": true
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  },
+  "craftTime": 100,
+  "itemCapacity": 30,
+  "liquidCapacity": 100,
+  "consumes": {
+    "power": 2,
+    "liquid": {
+      "liquid": "scryptic",
+      "amount": 0.2
+    }
+  },
+  "requirements": [
+    {
+      "item": "modular-processor",
+      "amount": 20
+    }
+    {
+      "item": "scalarian",
+      "amount": 100
+    }
+    {
+      "item": "modular-hollow",
+      "amount": 10
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "modular-scalarian-mixture",
+    "requirements": [
+      "modular-processor/100",
+      "scalarian/100",
+      "modular-hollow/100"
+    ]
+  }
+  "outputItem": {
+    "item": "tensarian",
+    "amount": 5
+  },
+  "outputLiquids": [
+    { "liquid": "cryofluid", "amount": 0.1 }
+  ]
+}
