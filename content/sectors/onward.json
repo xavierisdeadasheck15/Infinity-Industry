@@ -1,0 +1,23 @@
+{
+  "localizedName": "Onward",
+  "description": "No Research are intended here, continue the journey on collecting every resource in here",
+  "sector": 0,
+  "captureWave": 25,
+  "difficulty": 2,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "skyline",
+    "objectives": 
+    [
+      {
+        "type": "SectorComplete",
+        "preset": "skyline"
+      }
+    ]
+  }
+}
