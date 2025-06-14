@@ -1,6 +1,6 @@
 {
   "localizedName": "The Wide",
-  "description": "Seperate Pathway, research the wall you previously research, as you will need it",
+  "description": "Seperate Pathway, required the wall you previously research, as you will need it",
   "sector": 76,
   "captureWave": 25,
   "difficulty": 3,
@@ -12,8 +12,7 @@
   "research": 
   {
     "parent": "onward",
-    "objectives": 
-    [
+    "objectives": ["greetanium-wall", "large-greetanium-wall", "frictanium-wall", "large-frictanium-wall",
       {
         "type": "SectorComplete",
         "preset": "onward"
