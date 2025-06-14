@@ -11,12 +11,12 @@
   "overrideLaunchDefaults": false,
   "research": 
   {
-    "parent": "Onward",
+    "parent": "onward",
     "objectives": 
     [
       {
         "type": "SectorComplete",
-        "preset": "Onward"
+        "preset": "onward"
       }
     ]
   }
