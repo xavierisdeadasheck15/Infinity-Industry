@@ -17,10 +17,13 @@
     "outputsLiquid": false,
     "outputItems": true,
     "buildTime": 200,
-    research: {
-  parent: modular-transportation-aerial
-  requirements: [
-    greetanium/100
-  ]
-}
+    "research": {
+    "parent": "modular-transportation-aerial",
+    "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "difference"
+        }
+    ]
+  }
 }
