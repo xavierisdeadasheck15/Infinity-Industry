@@ -50,9 +50,11 @@
   "category": "power",
   "research": {
     "parent": "modular-virus-incinerator",
-    "requirements": [
-      "raw-frictor/200",
-      "greetanium/100"
+    "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "jagged-zigzag"
+        }
     ]
   }
 }
