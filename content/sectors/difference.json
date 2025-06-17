@@ -1,0 +1,23 @@
+{
+  "localizedName": "Difference",
+  "description": "Transporting the resource is now a bit harder in here... research the transportation module and the central receiver",
+  "sector": 44,
+  "captureWave": 30,
+  "difficulty": 4,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "s-site",
+    "objectives": 
+    [
+      {
+        "type": "SectorComplete",
+        "preset": "s-site"
+      }
+    ]
+  }
+}

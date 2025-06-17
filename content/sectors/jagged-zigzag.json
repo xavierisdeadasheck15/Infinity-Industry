@@ -1,0 +1,22 @@
+{
+  "localizedName": "Jagged Zigzag",
+  "description": "A Zig Zag Pathway, required a good strategy for this one, but there is some kind of lake, research it",
+  "sector": 57,
+  "captureWave": 30,
+  "difficulty": 3,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "thewide",
+    "objectives": ["modular-pump",
+      {
+        "type": "SectorComplete",
+        "preset": "thewide"
+      }
+    ]
+  }
+}

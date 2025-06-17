@@ -1,0 +1,22 @@
+{
+  "localizedName": "Venom",
+  "description": "High threat detected here, be prepared",
+  "sector": 73,
+  "captureWave": 40,
+  "difficulty": 6,
+  "planet": "newcylistial",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "research": 
+  {
+    "parent": "difference",
+    "objectives": ["astral", "slasher",
+      {
+        "type": "SectorComplete",
+        "preset": "difference"
+      }
+    ]
+  }
+}
