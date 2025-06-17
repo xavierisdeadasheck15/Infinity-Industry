@@ -47,11 +47,12 @@
   ],
   "category": "power",
   "research": {
-    "parent": "modular-burner-generator",
-    "requirements": [
-      "frictanium/200",
-      "modular-processor/10",
-      "modular-gear/10"
+    "parent": "modular-virus-incinerator",
+    "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "jagged-zigzag"
+        }
     ]
   }
 }
