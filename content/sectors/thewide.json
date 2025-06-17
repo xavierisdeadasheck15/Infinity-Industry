@@ -3,7 +3,7 @@
   "description": "Seperate Pathway, required the wall you previously research, as you will need it",
   "sector": 76,
   "captureWave": 25,
-  "difficulty": 3,
+  "difficulty": 4,
   "planet": "newcylistial",
   "allowLaunchLoadout": true,
   "allowLaunchSchematics": false,
