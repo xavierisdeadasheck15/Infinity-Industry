@@ -23,11 +23,13 @@
         "power": 2,
         "liquid": "refreshed-pollute/0.2"
   }
-    research: {
-  parent: frictor-pipeline
-  requirements: [
-    frictanium/500
-    modular-processor/100
-  ]
-}
+    "research": {
+    "parent": "frictor-pipeline",
+    "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "difference"
+        }
+    ]
+  }
 }
