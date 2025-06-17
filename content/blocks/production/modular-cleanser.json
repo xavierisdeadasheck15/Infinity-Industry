@@ -25,7 +25,13 @@
   "category": "crafting",
   "research": {
     "parent": "modular-refinery-mk2",
-  },
+    "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "difference"
+        }
+    ]
+  }
   "outputLiquids": [
     { "liquid": "refreshed-pollute", "amount": 0.2 }
   ]
