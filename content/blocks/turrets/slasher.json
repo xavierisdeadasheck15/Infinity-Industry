@@ -71,8 +71,15 @@
     }
   ],
   "category": "turret",
-  "research": "frostbite",
-  "researchCostMultiplier": 1.5,
+  "research": {
+    "parent": "astral",
+    "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "s-site"
+        }
+    ]
+  }
   "drawer": {
     "type": "DrawTurret",
     "parts": [
