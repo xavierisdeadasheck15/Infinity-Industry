@@ -1,0 +1,24 @@
+{
+   "type": "Wall",
+   "name": "Research Panel Log II"
+   "description": "A Second Log, Written By the Unknown Individual",
+   "details": "After the discovery of Greetanium, we came along with a new, strange, Bluelish Resource and a vast lake of... water alike, and so, we continue our research within this place and try out our new invention within this place, we try to burn the water like, which we call it [green]polluted []due to being polluted color alike, and after we test, it produce a gas... which we dont know, and we try to store the gas on the storage with a pipe and leave it by, and after a while, we focus on these new resource we found namely [blue]frictor []as we try to refine it same like greetanium, but he different is, this thing required a better refinery, so we create a new one and it work as always, and we call it [blue]frictanium []with a same reason as [green]greetanium, []but after the name of [blue]frictor, []this thing is pretty sharp and durable, useful for our next invention!",
+   "size": 1,
+   "health": 50,
+   "category": "defense",
+   "buildVisibility": "hidden",
+   "requirements": [
+     "modular-processor/1000",
+  ],
+   "research": 
+     {
+       "parent": "research-panel-greetanium",
+       "objectives": 
+       [ 
+         {
+           "type": "SectorComplete",
+           "preset": "venom"
+         }
+       ]
+    }
+}
