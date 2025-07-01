@@ -1,0 +1,37 @@
+{
+  "type": "MassDriver",
+  "name": "Modular Overdrive Launcher",
+  "health": 1000,
+  "description": "A Large turret module that transports a pack of resources onto the designated turret module.",
+  "itemCapacity": 500,
+  "squareSprite": false,
+  "reload": 200,
+  "range": 500,
+  "size": 3,
+  "rotateSpeed": 2.5,
+  "minDistribute": 100,
+  "shootEffect": "blastExplosion",
+  "smokeEffect": "blockExplosionSmoke",
+  "receiveEffect": "bigShockwave",
+  "consumes": {
+    "power": {
+      "amount": 5
+    }
+  },
+  "requirements": [
+    {
+      "item": "maltixian",
+      "amount": 100
+    },
+    {
+      "item": "modular-gear",
+      "amount": 20
+    },
+    {
+      "item": "modular-processor",
+      "amount": 50
+    }
+  ],
+  "category": "distribution",
+  "research": "matrix-pipeline"
+}
