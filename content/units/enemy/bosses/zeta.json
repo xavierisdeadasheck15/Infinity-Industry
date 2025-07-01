@@ -77,8 +77,8 @@
   "abilities": [
     {
       "type": "RegenAbility",
-      "percentAmount": 1,
-      "amount": 2.5
+      "percentAmount": 0.2,
+      "amount": 2
     },
     {
       "type": "StatusFieldAbility",
