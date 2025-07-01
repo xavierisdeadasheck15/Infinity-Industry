@@ -2,7 +2,7 @@
   "name": "Modular Gear",
   "description": "A Component modular, Use on extra Modular Building",
   "hardness": 1.5,
-  "cost": 30,
+  "cost": 6,
   "charge": 0.5,
   "color": "90a4ae",
   "research": {
