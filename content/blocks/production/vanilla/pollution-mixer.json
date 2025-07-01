@@ -1,0 +1,77 @@
+{
+  "name": "Pollution Mixer",
+  "description": "Create and cleanse the liquid, as a bioproduct, also produce non-cleanse liquid",
+  "type": "GenericCrafter",
+  "size": 2,
+  "buildTime": 5,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"    
+      },  
+      {
+        "type": "DrawLiquidTile",
+        "suffix": "-bottom",
+        "drawLiquid": "water",
+        "alpha": 2.1
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "rotateSpeed": -3,
+        "spinSprite": true
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 50,
+  "craftTime": 50,
+  "outputsLiquid": true,
+  "consumes": {
+    "power": 5,
+      "liquid": "water/0.5",
+      "items": {
+        "items": [
+        {
+          "item": "sand",
+          "amount": 3
+        }
+        {
+          "item": "scrap",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  "requirements": [
+    { "item": "titanium", "amount": 120 },
+    { "item": "silicon", "amount": 45 },
+    { "item": "plastanium", "amount": 90 },
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "plastanium-compressor",
+    "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "venom"
+        }
+    ]
+  }
+  "liquidOutputDirections":[1, 3],
+  "outputLiquids": [
+    { "liquid": "refreshed-pollute", "amount": 0.3 }
+    { "liquid": "polluted", "amount": 0.2 }
+  ]
+}

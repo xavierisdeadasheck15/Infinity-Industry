@@ -1,0 +1,83 @@
+{
+  "type": "GenericCrafter",
+  "name": "[red]Circuit Rettachment[]",
+  "description": "Combine Iron & Plate with a additional Copper as a wire into [red]circuit[]",
+  "health": 1000,
+  "size": 2,
+  "buildTime": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+      }
+    ]
+  },
+  "craftTime": 100,
+  "itemCapacity": 20,
+  "consumes": {
+    "power": 10,
+        "items": {
+      "items": [
+        {
+          "item": "dark-iron",
+          "amount": 1
+        }
+        {
+          "item": "copper",
+          "amount": 5
+        }
+        {
+          "item": "initiator-plate",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 750
+    }
+    {
+      "item": "initiator-plate",
+      "amount": 350
+    }
+    {
+      "item": "titanium",
+      "amount": 400
+    }
+    {
+      "item": "silicon",
+      "amount": 750
+    }
+    {
+      "item": "plastanium",
+      "amount": 50
+    }
+    {
+      "item": "dark-iron",
+      "amount": 650
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "dispersal-smelter",
+    "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "venom"
+        }
+    ]
+  }
+  "outputItem": {
+    "item": "initiator-circuit",
+    "amount": 1
+  },
+}
