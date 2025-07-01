@@ -2,7 +2,7 @@
   "name": "Modular Processor",
   "description": "A Component modular, Use on extra Modular Building",
   "hardness": 1.25,
-  "cost": 30,
+  "cost": 5,
   "charge": 0.5,
   "color": "b0bec5",
   "research": {
