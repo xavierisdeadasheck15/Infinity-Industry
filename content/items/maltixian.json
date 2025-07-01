@@ -2,7 +2,7 @@
   "name": "Maltixian",
   "description": "Stabilize & Refine Maltix, use to create 3rd Class turret & Ammunition",
   "hardness": 1,
-  "cost": 30,
+  "cost": 6,
   "charge": 0.5,
   "explosiveness": 0.5,
   "color": "8e24aa",
