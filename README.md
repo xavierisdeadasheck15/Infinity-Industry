@@ -23,8 +23,7 @@ Note:
 
 Plan:
 * Make Level 3-5 Category
-* Add Endgame Stuff for both Serpulo & Erekir
-* Adding Ambient theme for 5 Bosses (Currently Meta has)
-* Stabilize Build time for all block
+* Rebalance Endgame stuff for Serpulo & Erekir
+* Add More content
 
 If you want to see my progress or ask anything, go to these discord (https://discord.gg/ktBuM9BcEV), for now, See you soon!
