@@ -2,7 +2,7 @@
   "name": "Frictanium",
   "description": "Stabilize & Refine Frictor, use to create 2nd Class turret & Ammunition",
   "hardness": 0.75,
-  "cost": 20,
+  "cost": 4,
   "charge": 0.1,
   "color": "1976d2",
   "research": {
