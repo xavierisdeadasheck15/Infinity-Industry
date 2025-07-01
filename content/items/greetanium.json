@@ -3,7 +3,7 @@
   "description": "Stabilize & Refine Greenor, use to create 1st Class turret & Ammunition",
   "charge": 0.05,
   "hardness": 0.50,
-  "cost": 10,
+  "cost": 2,
   "charge": 0.05,
   "color": "029C16",
   "research": {
