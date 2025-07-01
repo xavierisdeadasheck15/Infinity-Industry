@@ -2,10 +2,10 @@
   "name": "Tensarian",
   "description": "Frozen scryptic, use to create Endgame Class turret & Ammunition",
   "hardness": 1.5,
-  "cost": 50,
+  "cost": 6.25,
   "charge": 2,
   "flammability": -1.5,
-  "color": "fb8c00",
+  "color": "00e5ff",
   "research": {
     "parent": "maltixian",
     "requirements": [
