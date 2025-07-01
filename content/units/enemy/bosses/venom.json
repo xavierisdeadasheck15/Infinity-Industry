@@ -13,10 +13,12 @@
   "faceTarget": false,
   "circleTarget": true,
   "autoFindTarget": false,
+  "loopSound": "ablib-o-mintooz",
+  "loopSoundVolume": 50,
   "immunities": [
     "poisonation"
   ],
-  "controller": HugAI,
+  "controller": "HugAI",
   "crushDamage": 1.5,
   "segments": 5,
   "segmentScl": 3.5,
