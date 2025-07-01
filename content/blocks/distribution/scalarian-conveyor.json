@@ -1,0 +1,18 @@
+{
+  "type": "StackConveyor",
+  "name": "Scalarian Conveyor",
+  "description": "Stack up to 50 pack",
+  "details": "this is kinda slow, isn't it?",
+  "category": "distribution",
+  "requirements": [
+    "scalarian/1",
+    "modular-processor/1"
+  ],
+  "health": 100,
+  "speed": 0.1,
+  "itemCapacity": 50,
+  "unloadEffect": "fireHit",
+  "outputRouter": true,
+  "loadEffect": "spawn",
+  "research": "matrix-pipeline"
+}

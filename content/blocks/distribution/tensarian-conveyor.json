@@ -1,0 +1,18 @@
+{
+  "type": "StackConveyor",
+  "name": "Tensarian Conveyor",
+  "description": "Stack up to 100 pack",
+  "details": "Now thats kinda fast, omg",
+  "category": "distribution",
+  "requirements": [
+    "tensarian/1",
+    "modular-processor/1"
+  ],
+  "health": 100,
+  "speed": 0.2,
+  "itemCapacity": 100,
+  "unloadEffect": "freezing",
+  "outputRouter": true,
+  "loadEffect": "spawn",
+  "research": "scalarian-conveyor"
+}
