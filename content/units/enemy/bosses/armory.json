@@ -12,12 +12,14 @@
   "outlineColor": "36363c",
   "faceTarget": false,
   "circleTarget": true,
-  "autoFindTarget": true,
+  "autoFindTarget": false,
+  "loopSound": "reload-installer-10th",
+  "loopSoundVolume": 50,
   "immunities": [
     "poisonation",
     "blasted"
   ],
-  "controller": HugAI,
+  "controller": "HugAI",
   "crushDamage": 5,
   "segments": 4,
   "segmentScl": 3.5,
