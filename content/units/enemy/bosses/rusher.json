@@ -8,6 +8,8 @@
   "hitSize": 16.5,
   "health": 5950,
   "armor": 20,
+  "loopSound": "mr-spocks-cryo-bed",
+  "loopSoundVolume": 50,
   "weapons": [
     {
       "name": "rusher-heavy-gun",
