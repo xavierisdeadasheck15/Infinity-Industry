@@ -8,6 +8,8 @@
   "hitSize": 17.5,
   "health": 10000,
   "armor": 15,
+  "loopSound": "unreal-super hero-3",
+  "loopSoundVolume": 50,
   "weapons": [
     {
       "name": "straggle-heavy-gun",
