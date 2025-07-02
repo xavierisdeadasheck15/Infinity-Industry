@@ -15,10 +15,12 @@
   "targetGround": true,
   "rotateSpeed": 2,
   "inaccuracy": 10,
+  "predictTarget": false,
   "shoot": {
-    "type": "ShootAlternate",
+    "type": "shootPattern",
     "barrels": 3,
     "spread": 3,
+    "shotDelay": 5
     "shots": 3
   },
   "recoilAmount": 60,
@@ -27,6 +29,7 @@
   "ammoTypes": {
     "maltixian": {
       "type": "MissileBulletType",
+      "spawnUnit": "rocket-mk1"
       "damage": 100,
       "splashDamageRadius": 45,
       "splashDamage": 50,
