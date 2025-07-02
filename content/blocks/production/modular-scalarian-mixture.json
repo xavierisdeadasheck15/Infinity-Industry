@@ -36,6 +36,8 @@
   "craftTime": 100,
   "itemCapacity": 30,
   "liquidCapacity": 100,
+  "craftEffect": "absorb",
+  "updateEffect": "burning",
   "consumes": {
     "power": 2,
     "liquid": {
