@@ -1,0 +1,43 @@
+{
+  "type": "missile",
+  "name": "Rocket Mk.1",
+  "template": "MissileUnitType",
+  "flying": true,
+  "speed": 5,
+  "drag": 0.3,
+  "physics": false,
+  "lifetime": 500,
+  "rotateSpeed": 1,
+  "homingDelay": 3,
+  "hitSize": 10,
+  "trailLength": 10,
+  "engineOffset": 8,
+  "useUnitCap": false,
+  "health": 500,
+  "autoFindTarget": true,
+  "circleTarget": false,
+  "faceTarget": true,
+  "trailColor": "c51162",
+  "aimDst": 5,
+  "drawCell": true,
+  "outlines": true,
+  "range": 11,
+  "hidden": true,
+  "deathSound": "largeExplosion",
+  "deathExplosionEffect": "massiveExplosion",
+  "weapons": [
+    {
+      "reload": 1,
+      "shootOnDeath": true,
+      "mirror": true,
+      "shootCone": 360,
+      "shake": 1.5,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "splashDamage": 100,
+        "splashDamageRadius": 45
+        "splashDamage": 50,
+      }
+    }
+  ]
+}
