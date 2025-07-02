@@ -1,0 +1,21 @@
+{
+  "type": "LiquidBridge",
+  "name": "Greetanium Liquid Bridge",
+  "description": "Transports Liquid over terrain or buildings.",
+  "health": 250,
+  "liquidCapacity": 50
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 10
+    }
+  ],
+  "range": 5,
+  "transportTime": 5,
+  "hasPower": false,
+  "category": "liquid",
+  "research": "greetanium-liquid-transport"
+  "researchCost": [
+    "greetanium/50"
+  ],
+}
