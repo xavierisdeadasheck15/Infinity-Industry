@@ -1,0 +1,115 @@
+{
+  "type": "GenericCrafter",
+  "name": "Modular Multifactor Refinery",
+  "description": "Combine and Refine all resources like Greenor, Frictor, and Maltix, at once, required fresh liquid",
+  "buildTime": 3,
+  "squareSprite": false,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "suffix": "-bottom",
+        "drawLiquid": "refreshed-pollute",
+        "alpha": 0.5
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "rotateSpeed": -5,
+        "spinSprite": true
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  },
+  "craftTime": 100,
+  "itemCapacity": 50,
+  "liquidCapacity": 100,
+  "craftEffect": "fireHit",
+  "updateEffect": "burning",
+  "consumes": {
+    "power": 7.5,
+    "liquid": {
+      "liquid": "refreshed-pollute",
+      "amount": 0.2
+    },
+    "items": {
+      "items": [
+        {
+          "item": "raw-greenor",
+          "amount": 5
+        },
+        {
+          "item": "raw-frictor",
+          "amount": 5
+        },
+        {
+          "item": "raw-maltix",
+          "amount": 5
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 200
+    },
+    {
+      "item": "frictanium",
+      "amount": 150
+    },
+    {
+      "item": "maltixian",
+      "amount": 100
+    },
+    {
+      "item": "modular-processor",
+      "amount": 100
+    },
+    {
+      "item": "modular-gear",
+      "amount": 50
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "modular-refinery-mk3",
+    "requirements": [
+      "greetanium/400",
+      "frictanium/300",
+      "maltixian/200",
+      "modular-processor/200",
+      "modular-gear/100"
+    ]
+  },
+  "outputItems": [
+    {
+      "item": "maltixian",
+      "amount": 5
+    },
+    {
+      "item": "frictanium",
+      "amount": 5
+    },
+    {
+      "item": "greetanium",
+      "amount": 5
+    }
+  ],
+  "health": 1000
+}
