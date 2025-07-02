@@ -4,8 +4,10 @@
   "type": "Conduit",
   "health": 100,
   "leaks": false,
-  "liquidPressure": 5,
+  "liquidPressure": 7,
   "liquidCapacity": 50,
+  "junctionReplacement": "greetanium-liquid-junction",
+  "bridgeReplacement": "greetanium-liquid-bridge",
   "requirements": [
     "greetanium/10",
     "raw-greenor/1",
