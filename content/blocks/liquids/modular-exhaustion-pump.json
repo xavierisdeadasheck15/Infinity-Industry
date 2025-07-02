@@ -1,0 +1,38 @@
+{	
+  "type": "Pump",
+  "name": "Modular Exhaustion Pump",
+  "description": "Extract Any Liquid in Mass amount under it, required power to pump it out",
+  "size": 3
+  "squareSprite": false,
+  "liquidCapacity": 200,
+  "pumpAmount": 1,
+  "buildTime": 1.5,
+  "consumes": {
+    "power": 5
+  },
+  "requirements": [
+    {
+      "item": "greetanium",
+      "amount": 25
+    }
+    {
+      "item": "frictanium",
+      "amount": 25
+    }
+    {
+      "item": "maltixian",
+      "amount": 25
+    }
+    {
+      "item": "modular-processor",
+      "amount": 20
+    }
+    {
+      "item": "modular-gear",
+      "amount": 80
+    }
+  ],
+  "category": "liquid",
+  "research": "modular-large-pump",
+  "researchCostMultiplier": 1.3
+}
